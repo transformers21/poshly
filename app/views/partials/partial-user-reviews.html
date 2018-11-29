@@ -1,0 +1,20 @@
+&nbsp;<i class="fa fa-comments" aria-hidden="true"></i>
+<div class="inline italic" ng-show="messagesToDisplay.length == 0">Not enough data</div>
+<div ng-show="messagesToDisplay.length   > 0">
+    <ul class="open-ended-review">
+       <li ng-repeat="msg in messagesToDisplay" >
+           <i class="fa fa-quote-left   fa-pull-left fa-border" aria-hidden="true"></i>
+           <p class="open-text">{{msg.openText}} </p>
+           <!--<p ng-show="msg.timeStamp" class="timestamp">-->
+               <!--<i class="fa fa-clock-o" aria-hidden="true"></i><small> Posted {{msg.timeStamp}}</small>-->
+           <!--</p>-->
+       </li>
+    </ul>
+    <div class=" poshly-button more-reviews">
+        <ul>
+            <li class="left"><a ng-click ="displayPrev3Reviews()" ng-class="!morePrevMessages?'inactive' : ''"><i class="fa fa-angle-double-left fa-lg"  aria-hidden="true"></i></a></li>
+            <li>MORE REVIEWS...</li>
+            <li class="right"><a ng-click ="displayNext3Reviews()" ng-class="!moreMessages?'inactive' : ''"><i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>

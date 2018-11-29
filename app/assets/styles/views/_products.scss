@@ -1,0 +1,489 @@
+.full-product-wrapper {
+  margin-top: 35px;
+}
+
+@include flex-grid((192px + 40), 40px, true, 5);
+
+.product-list-item {
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+  @extend %SFUITextSemiBold;
+
+  .product-thumbnail {
+    padding: 48px 0;
+    text-align: center;
+
+    img {
+      @extend .img-responsive;
+      max-width: 111px;
+      display: inline-block;
+    }
+  }
+
+  .product-bar {
+    span {
+      float: right;
+      margin-top: -25px;
+      color: $poshly-new-purple;
+      padding-right: 15px;
+      font-weight: bold;
+    }
+
+    .progress {
+      height: 2px;
+      border-radius: 0;
+      box-shadow: none;
+      background-color: $poshly-pastel-rose;
+    }
+
+    .progress-bar {
+      height: 2px;
+      background-color: $poshly-new-purple;
+    }
+  }
+
+  .product-list-body {
+    min-height: 94px;
+    text-align: center;
+
+    p {
+      margin: 0;
+      color: $poshly-new-purple;
+      @extend %SFUITextSemiBold;
+    }
+
+    span {
+      font-size: 12px;
+      color: $text-disabled;
+      @extend %SFUITextLight;
+    }
+  }
+
+  .products-status {
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    max-width: 48px;
+    max-height: 48px;
+    color: white;
+    @extend %SFUITextRegular;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px 0 4px 0;
+    text-transform: uppercase;
+    background-color: #a84ea6;
+  }
+}
+
+.product-item-info,
+.product-item-settings {
+  border-radius: 4px;
+  background-color: white;
+}
+
+.product-item-carousel {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 48px;
+
+  @media screen and (max-width: $screen-xs-max) { width: 95%; }
+
+  .carousel-inner {
+    min-height: 300px;
+    cursor: default;
+  }
+
+  .carousel-control {
+    @include centre($axis: 'y');
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    padding-top: 11px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    transition: all .2s ease-in-out;
+
+    @media screen and (max-width: $screen-xs-min) { display: none !important; }
+  }
+
+  .carousel-control.right { right: 0; }
+
+  .carousel-control.left { left: 0; }
+
+  .carousel-indicators {
+
+    li {
+      margin: 0 5px;
+      width: 8px;
+      height: 8px;
+      border: none;
+      background-color: $poshly-pastel-rose;
+      transition: all .2s ease-in-out;
+
+    }
+
+    .active {
+      width: 8px;
+      height: 8px;
+      background-color: $poshly-new-purple;
+    }
+  }
+}
+
+.product-item-info {
+  overflow: hidden;
+
+  .product-bar {
+    margin-top: 20px;
+
+    .progress {
+      height: 3px;
+      border-radius: 0;
+      box-shadow: none;
+      background-color: $poshly-pastel-rose;
+    }
+
+    .progress-bar {
+      height: 3px;
+      background-color: $poshly-new-purple;
+    }
+  }
+
+  .product-details {
+    padding: 10px 48px;
+    
+    @media screen and (max-width: $screen-xs-max) { padding: 5px 25px; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .product-percentage {
+        height: 48px;
+        width: 48px;
+        padding-top: 13px;
+        color: white;
+        cursor: default;
+        text-align: center;
+        border-radius: 50%;
+        @extend %SFUITextLight;
+        background-color: $poshly-new-purple;
+      }
+
+      .title-sm {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      .product-name {
+        color: $poshly-text-gray;
+        @extend %SFUITextLight;
+      }
+    }
+
+    .product-description {
+      margin-top: 10px;
+      color: $poshly-text-gray;
+      @extend %SFUITextLight;
+    }
+  }
+}
+
+.product-personalize {
+  margin-top: 25px;
+  padding-top: 48px;
+  border-radius: 4px;
+  background-color: white;
+
+  header {
+    padding: 0 48px;
+
+    @media screen and (max-width: $screen-xs-max) { padding: 5px 25px; }
+
+    .personalize-count {
+      display: block;
+      padding-top: 15px;
+      width: 48px;
+      height: 48px;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
+      border-radius: 50%;
+      @extend %MontserratRegular;
+      background-color: $poshly-new-purple;
+    }
+
+    .title-xs {
+      margin: 10px 0;
+      text-transform: uppercase;
+    }
+
+     p {
+       font-size: 16px;
+       @extend %SFUITextLight;
+     }
+  }
+
+  &-list {
+    margin-top: 20px;
+    padding: 0 48px;
+
+    @media screen and (max-width: $screen-xs-max) { padding: 5px 25px; }
+
+    li {
+      padding: 18px 0;
+      color: $poshly-background-purple-dark;
+      border-top: 1px solid $poshly-background-light;
+
+      p {
+        display: inline;
+        @extend %SFUITextLight;
+      }
+    }
+  }
+}
+
+.product-item-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  border-radius: 4px;
+  background-color: white;
+
+  .product-buy {
+    padding-right: 15px;
+    border-right: 1px solid $poshly-background-light;
+
+    & > button {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      width: 192px;
+      max-width: 100%;
+    }
+
+    .title-sm {
+      font-size: 36px;
+      display: inline-block;
+    }
+
+    .title-xs {
+      font-size: 20px;
+      @extend %SFUITextRegular;
+    }
+  }
+
+  .product-options {
+    padding-left: 16px;
+
+    .landing-title-sm { margin: 20px 0; }
+
+    .buy-dropdown {
+      display: block;
+      margin-top: 10px;
+
+      a {
+        display: block;
+        width: 192px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 4px;
+        color: $poshly-background-purple-dark;
+        background-color: $poshly-background-light;
+        @extend %SFUITextLight;
+
+        strong { @extend %SFUITextSemiBold; }
+      }
+
+      .dropdown-menu {
+        border: none;
+        border-radius: 4px;
+
+        a {
+          border-radius: 0;
+          background-color: transparent;
+          transition: all .2s ease-in-out;
+
+          &:hover { background-color: $poshly-background-light; }
+        }
+      }
+    }
+
+    .landing-title-sm {
+      font-size: 22px;
+      letter-spacing: 1px;
+      @extend %SFUIDisplayThin;
+    }
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .product-item-options .product-buy .title-xs{
+    padding-left: 0px;
+  }
+  .product-item-options .product-buy .title-sm{
+    padding-left: 40px;
+  }
+  .product-item-options .product-buy > button{
+    width: 122px;
+    margin-left: 50px;
+  }
+  .product-item-options .product-buy > button{
+    width: 122px;
+    margin-left: 50px;
+  }
+  .product-item-options .product-options .buy-dropdown a{
+    width: 157px !important;
+  }
+  .product-item-options .product-options .buy-dropdown a{
+    width: 157px !important;
+  }
+  .product-item-options .product-options{
+    position: relative;
+    right: 14px;
+  }
+  .product-item-options .product-buy{
+    position: relative;
+    right: 14px;
+  }
+}
+
+.star-rating {
+  li {
+    display: inline-block;
+    font-size: 24px;
+    color: $poshly-light-gray;
+  }
+
+  .filled { color: $poshly-new-purple !important; }
+}
+
+.product-item-reviews {
+  margin-top: 25px;
+  padding: 48px;
+  border-radius: 4px;
+  background-color: white;
+
+  .landing-title-sm {
+    font-size: 20px;
+    letter-spacing: 1px;
+    @extend %SFUIDisplayThin;
+  }
+
+  .product-review-tab {
+    margin-top: 15px;
+
+    .tab-content { padding-top: 10px; }
+
+    .nav-tabs {
+      border: none;
+
+      li {
+        margin: 0 30px 0 0;
+
+        a {
+          position: relative;
+          margin: 0;
+          padding: 10px 0;
+          color: $poshly-rose;
+          border: none;
+          outline: none;
+          box-shadow: none;
+          border-radius: 0;
+          @extend %SFUITextSemiBold;
+          text-transform: uppercase;
+          background-color: transparent;
+          transition: all .2s ease-in-out;
+
+          &:hover { color: $poshly-new-purple; }
+
+          &:hover,
+          &:focus,
+          &:active {
+            border: none;
+            background-color: transparent;
+          }
+        }
+      }
+
+      .active {
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 3px;
+          bottom: 3px;
+          background-color: $poshly-new-purple;
+        }
+
+        a {
+          color: $poshly-new-purple !important;
+          border: none;
+          background-color: transparent;
+        }
+      }
+    }
+
+    .product-rating {
+      margin-top: 15px;
+      display: flex;
+      height: 30px;
+      justify-content: space-between;
+      align-items: center;
+
+      p { @extend %SFUITextSemiBold; }
+    }
+
+    .product-feedback {
+      margin-top: 10px;
+      border-top: 1px solid $poshly-background-light;
+
+      li {
+        padding: 18px 0;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $poshly-background-light;
+        }
+      }
+
+      .feedback-text,
+      .feedback-author {
+        color: $poshly-text-gray;
+        @extend %SFUITextLight;
+      }
+
+      .feedback-text {
+        margin: 0;
+      }
+    }
+  }
+
+  .my-review {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid $poshly-background-light;
+
+    p { @extend %SFUITextSemiBold; }
+
+    textarea {
+      resize: none;
+      width: 100%;
+      min-height: 180px;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      text-indent: 5px;
+      background-color: transparentize($poshly-pastel-rose, .7);
+
+      &:focus { outline: none; }
+    }
+  }
+}

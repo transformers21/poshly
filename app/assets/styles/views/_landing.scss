@@ -1,0 +1,397 @@
+.landing-title-lg {
+  font-size: 44px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  @extend %SFUIDisplayThin;
+  color: $poshly-new-purple;
+}
+
+.landing-title-sm {
+  font-size: 30px;
+  @extend %SFUITextLight;
+  line-height: 1;
+  color: $poshly-new-purple;
+}
+
+.landing-subtitle {
+  font-size: 17px;
+  line-height: 2.5;
+  @extend %SFUITextLight;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media screen and (max-width: $screen-xs-max) { line-height: 1.5; }
+}
+
+.landing-products {
+  position: relative;
+  background-color: $poshly-background-light;
+
+  &-caption {
+    padding-bottom: 50px;
+
+    .subtitle { padding-top: 10px; }
+
+    .poshly-button {
+      font-size: 13px;
+      letter-spacing: 3px;
+      font-weight: lighter;
+
+      @media screen and (max-width: $screen-md-max) { padding: 15px 10px; }
+    }
+  }
+
+  &-towel,
+  &-flowers {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    z-index: 100;
+
+    img { @extend .img-responsive; }
+  }
+
+  &-towel {
+    right: 0;
+
+    img {
+      position: absolute;
+      width: 50%;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  &-flowers { left: 0; }
+
+  &-feedback {
+    position: relative;
+    display: block;
+    margin-top: 200px;
+    padding-bottom: 59.64%;
+    background: url("../images/containers.jpg") no-repeat center bottom;
+    background-size: contain;
+
+    @media screen and(max-width: $screen-xs-max){
+      margin-top: 0;
+      text-align: center;
+      padding-bottom: 100%;
+      background-position: 100% bottom;
+      background-size: 170%;
+    }
+  }
+
+  &-caption {
+    text-align: center;
+
+    form { margin-top: 30px; }
+  }
+}
+
+.landing-testimonials {
+  padding: 100px 0;
+  overflow: hidden;
+  background-color: white;
+
+
+  .testimonial-tabs {
+    border: none;
+    text-align: center;
+
+    .nav-tabs {
+      border: none;
+
+      li {
+        float: none;
+        margin: 0 50px;
+        display: inline-block;
+
+        @media screen and (max-width: $screen-xs-max) { margin: 0 25px; }
+        @media screen and (max-width: $screen-xs-min) { margin: 0 10px; }
+      }
+
+      li > a {
+        padding: 10px 0;
+        margin: 0;
+        border: none;
+        letter-spacing: 2px;
+        color: $poshly-new-purple;
+        @extend %SFUITextBold;
+        text-transform: uppercase;
+
+        &:focus,
+        &:active {
+          color: $poshly-new-purple;
+          cursor: pointer;
+          border: none !important;
+          background-color: transparent;
+        }
+
+        &:hover {
+          margin: 0;
+          border: none;
+          background-color: transparent;
+        }
+      }
+
+      .active {
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 3px;
+          bottom: 3px;
+          background-color: $poshly-new-purple;
+        }
+
+        a {
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            cursor: pointer;
+            color: $poshly-new-purple;
+          }
+        }
+      }
+    }
+  }
+
+  .testimonials-carousel {
+
+    .carousel-inner {
+      min-height: 552px; // TODO: Actually if carousels content height is different the carousel jumps after changing slide. It's minor fix.
+      padding-bottom: 50px;
+
+      @media screen and (max-width: $screen-md-min){
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      @media screen and (max-width: 600px){ width: 100%; }
+    }
+
+    .carousel-control {
+      position: absolute;
+      top: 50%;
+      padding-top: 15px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      font-weight: lighter;
+      transition: all .2s ease-in-out;
+      background-color: $poshly-accent-01-pastel;
+
+      @media screen and (max-width: 600px){ display: none; }
+    }
+
+    .col-xs-4:nth-child(3n+1) {clear: left;}
+
+    .testimonial-item {
+      text-align: center;
+
+      .testimonial-image {
+        position: relative;
+        display: inline-block;
+        margin-top: 50px;
+        height: 96px;
+        width: 96px;
+        border: 6px solid $poshly-background-light;
+        border-radius: 50%;
+
+        @media screen and (max-width: $screen-xs-max) {
+          height: 120px;
+          width: 120px;
+          margin-top: 35px;
+          border: 5px solid $poshly-background-light;
+        }
+
+        @media screen and (max-width: 600px){
+          height: 90px;
+          width: 90px;
+          margin-top: 20px;
+          border: 3px solid $poshly-background-light;
+        }
+        
+        @media screen and (max-width: 370px) {
+          width: 70px;
+          height: 70px;
+        }
+
+        img {
+          @extend .img-responsive;
+          max-width: 75%;
+          @include centre($axis: 'both');
+
+          @media screen and (max-width: $screen-xs-max) { max-width: 65%; }
+        }
+      }
+
+      .testimonial-body {
+
+        padding-top: 25px;
+        text-align: center;
+
+        .testimonial-text {
+          font-size: 20px;
+          @extend %SFUITextLight;
+          color: $poshly-new-purple;
+        }
+
+        .testimonial-sender {
+          @extend %SFUITextBold;
+          text-transform: uppercase;
+        }
+
+        @media screen and (min-width: $screen-md-min + 1) {
+          width: 220px;
+          margin: 0 auto;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+          .testimonial-text { font-size: 14px; }
+          .testimonial-sender { font-size: 12px; }
+        }
+      }
+    }
+  }
+}
+
+.landing-poshly-app {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #f3f3f3 50%, $poshly-pastel-rose 50%);
+
+  @media screen and (max-width: $screen-md-min){ height: 100%; }
+
+  .container,
+  .poshly-app-skewed-section {
+    flex: 1 0;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+
+    @media screen and (max-width: $screen-md-min) {
+      display: block;
+      height: auto;
+    }
+  }
+  .poshly-app-skewed-section > img {
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  .col-md-6 {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: $screen-xs-max) { text-align: center; }
+  }
+
+  .poshly-app-description {
+    padding: 50% 0;
+
+    .title-sm { padding-top: 10px; }
+
+    @media screen and (max-width: $screen-md-min) {
+      margin-top: 50px;
+      padding: 0;
+    }
+  }
+
+  .poshly-app-image > img {
+    @extend .img-responsive;
+  }
+
+  .btn-landing {
+    margin: 20px 25px 0 0;
+
+    @media screen and (max-width: $screen-xs-max) { margin: 10px 5px; }
+  }
+
+  .poshly-app-logo {
+    position: relative;
+    border-radius: 7px;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    box-shadow: 1px 1px 20px -4px rgba(0, 0, 0, 0.5);
+
+    @media screen and (max-width: $screen-xs-max) { margin: 0 auto; }
+
+    img {
+      @include centre($axis: 'both');
+      width: 55px;
+    }
+  }
+}
+
+.landing-poshly-insights {
+  padding-top: 100px;
+  background-color: $poshly-background-light;
+
+  .insights-description {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+
+    @media screen and (max-width: $screen-md-min) { width: 100%; }
+  }
+
+  .insights-image { margin-top: 50px; }
+}
+
+.landing-footer {
+  padding: 75px 0;
+  background-color: $poshly-background-purple-dark;
+
+  .footer-logo {
+    opacity: 0.3;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+
+    .footer-logo {
+      text-align: center;
+
+      .navbar-brand-white {
+        float: none;
+        margin: 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  .landing-title {
+    font-size: 24px;
+    @extend %ProximaNovaLight;
+    color: $poshly-accent-04-tint;
+  }
+
+  ul {
+    margin-top: 35px;
+
+    li {
+      margin-top: 10px;
+
+      a {
+        color: white;
+        font-size: 12px;
+        @extend %ProximaNovaLight;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: color .3s ease-in-out;
+
+        &:hover { color: $poshly-accent-04-tint; }
+      }
+    }
+  }
+}

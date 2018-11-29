@@ -1,0 +1,1021 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Volumes/WORKS/Jobs%20in%20progress/Poshly/products-ui/}products-ui...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.poshly#products-ui_2.11;2.71493918582756[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, aspectj][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.poshly#products-ui_2.11;2.71493918582756 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom (2.11.8)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.pom(pom.original) (1823ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in public[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.aspectj#aspectjrt;1.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.aspectj#aspectjrt;1.7.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.aspectj#aspectjrt;1.7.3 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.aspectj#aspectjrt;1.7.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.aspectj#aspectjrt;1.7.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.aspectj#aspectjrt;1.7.3[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.aspectj#aspectjrt;1.7.3[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom (1.7.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.aspectj#aspectjrt;1.7.3!aspectjrt.pom(pom.original) (2081ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjrt;1.7.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.aspectj#aspectjrt;1.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.aspectj#aspectjrt;1.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->org.aspectj#aspectjrt;1.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-metrics_2.11;2.7-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-metrics_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-metrics_2.11;2.7-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-metrics_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-metrics_2.11;2.7-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-metrics_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-metrics_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122948-57] com/poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.poshly#core-metrics_2.11;2.7-SNAPSHOT!core-metrics_2.11.pom(pom.original) (2002ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-metrics_2.11/2.7-SNAPSHOT/jars/core-metrics_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-metrics_2.11/2.7-SNAPSHOT/jars/core-metrics_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.jar[0m
+[0m[[0mdebug[0m] [0mcom.poshly#core-metrics_2.11;2.7-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122948-57] com/poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse com.poshly#core-metrics_2.11;2.7-SNAPSHOT from poshly-snapshots, using Sat Apr 29 08:29:48 EDT 2017[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-releases: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	central: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/websudos/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-metrics_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://dl.bintray.com/websudos/oss-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos bintray releases: no ivy file found for com.poshly#core-metrics_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-metrics_2.11/2.7-SNAPSHOT/core-metrics_2.11-2.7-20170429.122948-57.jar[0m
+[0m[[0mdebug[0m] [0m	found com.poshly#core-metrics_2.11;2.7-SNAPSHOT in poshly-snapshots[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-metrics_2.11;2.7-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-metrics_2.11;2.7-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-base_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-base_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-base_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-base_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-base_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-base_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122952-57] com/poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.poshly#core-base_2.11;2.7-SNAPSHOT!core-base_2.11.pom(pom.original) (2050ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-base_2.11/2.7-SNAPSHOT/jars/core-base_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-base_2.11/2.7-SNAPSHOT/jars/core-base_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.jar[0m
+[0m[[0mdebug[0m] [0mcom.poshly#core-base_2.11;2.7-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122952-57] com/poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse com.poshly#core-base_2.11;2.7-SNAPSHOT from poshly-snapshots, using Sat Apr 29 08:29:53 EDT 2017[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-releases: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	central: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/websudos/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-base_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://dl.bintray.com/websudos/oss-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos bintray releases: no ivy file found for com.poshly#core-base_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-base_2.11/2.7-SNAPSHOT/core-base_2.11-2.7-20170429.122952-57.jar[0m
+[0m[[0mdebug[0m] [0m	found com.poshly#core-base_2.11;2.7-SNAPSHOT in poshly-snapshots[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-base_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-base_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-base_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-base_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-logging_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-logging_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-logging_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-logging_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-logging_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-logging_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122948-57] com/poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.poshly#core-logging_2.11;2.7-SNAPSHOT!core-logging_2.11.pom(pom.original) (2068ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-logging_2.11/2.7-SNAPSHOT/jars/core-logging_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-logging_2.11/2.7-SNAPSHOT/jars/core-logging_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.jar[0m
+[0m[[0mdebug[0m] [0mcom.poshly#core-logging_2.11;2.7-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122948-57] com/poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse com.poshly#core-logging_2.11;2.7-SNAPSHOT from poshly-snapshots, using Sat Apr 29 08:29:48 EDT 2017[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-releases: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	central: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/websudos/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-logging_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://dl.bintray.com/websudos/oss-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos bintray releases: no ivy file found for com.poshly#core-logging_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-logging_2.11/2.7-SNAPSHOT/core-logging_2.11-2.7-20170429.122948-57.jar[0m
+[0m[[0mdebug[0m] [0m	found com.poshly#core-logging_2.11;2.7-SNAPSHOT in poshly-snapshots[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/slf4j-api/1.7.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.7.7[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-api;1.7.7[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom (1.7.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.7!slf4j-api.pom(pom.original) (1772ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.7 {}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.7 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/slf4j-parent/1.7.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.7.7[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-parent;1.7.7[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom (1.7.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.7!slf4j-parent.pom(pom.original) (2352ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/slf4j-parent/1.7.7/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/org.slf4j/slf4j-parent/1.7.7/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/slf4j-api/1.7.7/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.7 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#jul-to-slf4j;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#jul-to-slf4j;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/jul-to-slf4j/1.7.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#jul-to-slf4j;1.7.7[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#jul-to-slf4j;1.7.7[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom (1.7.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.7!jul-to-slf4j.pom(pom.original) (1717ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.7[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/org.slf4j/jul-to-slf4j/1.7.7/jars/jul-to-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#jul-to-slf4j;1.7.7 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-classic/1.1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-classic;1.1.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-classic;1.1.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom (1.1.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.1.2!logback-classic.pom(pom.original) (1923ms)[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-parent/1.1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-parent;1.1.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-parent;1.1.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom (1.1.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-parent;1.1.2!logback-parent.pom(pom.original) (1954ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-parent/1.1.2/jars/logback-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/ch.qos.logback/logback-parent/1.1.2/jars/logback-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/snapshots/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/ch/qos/logback/logback-parent/1.1.2/logback-parent-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-classic/1.1.2/jars/logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-core;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: ch.qos.logback#logback-core;1.1.2 {test=[runtime(*), master(compile)]})[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-core;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: ch.qos.logback#logback-core;1.1.2 {test=[runtime(*), master(compile)]})[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-core/1.1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-core;1.1.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-core;1.1.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom (1.1.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-core;1.1.2!logback-core.pom(pom.original) (2247ms)[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.1.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.1.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/ch.qos.logback/logback-core/1.1.2/jars/logback-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-logging_2.11;2.7-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->ch.qos.logback#logback-core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.newrelic.agent.java#newrelic-api;3.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.newrelic.agent.java#newrelic-api;3.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.newrelic.agent.java#newrelic-api;3.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.newrelic.agent.java#newrelic-api;3.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.newrelic.agent.java/newrelic-api/3.11.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.newrelic.agent.java#newrelic-api;3.11.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.newrelic.agent.java#newrelic-api;3.11.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom (3.11.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.newrelic.agent.java#newrelic-api;3.11.0!newrelic-api.pom(pom.original) (1698ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.newrelic.agent.java/newrelic-api/3.11.0/jars/newrelic-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/newrelic/agent/java/newrelic-api/3.11.0/newrelic-api-3.11.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.newrelic.agent.java#newrelic-api;3.11.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-metrics_2.11;2.7-SNAPSHOT->com.newrelic.agent.java#newrelic-api;3.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-metrics_2.11;2.7-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-server_2.11;2.7-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-server_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-server_2.11;2.7-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-server_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-server_2.11;2.7-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-server_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-server_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122951-56] com/poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.poshly#core-server_2.11;2.7-SNAPSHOT!core-server_2.11.pom(pom.original) (2251ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-server_2.11/2.7-SNAPSHOT/jars/core-server_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-server_2.11/2.7-SNAPSHOT/jars/core-server_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.jar[0m
+[0m[[0mdebug[0m] [0mcom.poshly#core-server_2.11;2.7-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122951-56] com/poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse com.poshly#core-server_2.11;2.7-SNAPSHOT from poshly-snapshots, using Sat Apr 29 08:29:51 EDT 2017[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-releases: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	central: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/websudos/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-server_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://dl.bintray.com/websudos/oss-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos bintray releases: no ivy file found for com.poshly#core-server_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-server_2.11/2.7-SNAPSHOT/core-server_2.11-2.7-20170429.122951-56.jar[0m
+[0m[[0mdebug[0m] [0m	found com.poshly#core-server_2.11;2.7-SNAPSHOT in poshly-snapshots[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-server_2.11;2.7-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#products-ui_2.11;2.71493918582756->com.poshly#core-server_2.11;2.7-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-configuration_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-configuration_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-configuration_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-configuration_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-configuration_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-configuration_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-configuration_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122949-57] com/poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.poshly#core-configuration_2.11;2.7-SNAPSHOT!core-configuration_2.11.pom(pom.original) (2007ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-configuration_2.11/2.7-SNAPSHOT/jars/core-configuration_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-configuration_2.11/2.7-SNAPSHOT/jars/core-configuration_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.jar[0m
+[0m[[0mdebug[0m] [0mcom.poshly#core-configuration_2.11;2.7-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122949-57] com/poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse com.poshly#core-configuration_2.11;2.7-SNAPSHOT from poshly-snapshots, using Sat Apr 29 08:29:49 EDT 2017[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-releases: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	central: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/com/websudos/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/websudos/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/websudos/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-configuration_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://dl.bintray.com/websudos/oss-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://dl.bintray.com/websudos/oss-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://dl.bintray.com/websudos/oss-releases/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Websudos bintray releases: no ivy file found for com.poshly#core-configuration_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-configuration_2.11/2.7-SNAPSHOT/core-configuration_2.11-2.7-20170429.122949-57.jar[0m
+[0m[[0mdebug[0m] [0m	found com.poshly#core-configuration_2.11;2.7-SNAPSHOT in poshly-snapshots[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-configuration_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-configuration_2.11;2.7-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-configuration_2.11;2.7-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.poshly#core-base_2.11;2.7-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-configuration_2.11;2.7-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-logging_2.11;2.7-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.poshly#core-server_2.11;2.7-SNAPSHOT->com.poshly#core-date_2.11;2.7-SNAPSHOT [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.twitter#finagle-http_2.11;6.28.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-date_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.poshly#core-date_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.poshly#core-date_2.11;2.7-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.poshly#core-date_2.11;2.7-SNAPSHOT {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.ivy2/local/com.poshly/core-date_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/eden/.sbt/preloaded/com.poshly/core-date_2.11/2.7-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata and maven-metadata-local not available: /Users/eden/.sbt/preloaded/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:////Users/eden/.sbt/preloaded/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/repositories/plugins-releases/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	plugins-releases: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/poshly-plugins/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-plugins: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://nexus.poshly.com/content/groups/public/com/poshly/core-date_2.11/2.7-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/groups/public/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://nexus.poshly.com/content/groups/public/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-nexus: no ivy file found for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.poshly#core-date_2.11;2.7-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[2.7-20170429.122952-57] com/poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-20170429.122952-57.pom[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: found md file for com.poshly#core-date_2.11;2.7-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-20170429.122952-57.pom (2.7-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-20170429.122952-57.pom ...[0m
+[0m[[0mdebug[0m] [0m	poshly-snapshots: downloading http://nexus.poshly.com/content/repositories/snapshots/com/poshly/core-date_2.11/2.7-SNAPSHOT/core-date_2.11-2.7-20170429.122952-57.pom[0m

@@ -1,0 +1,8 @@
+build.id=${bamboo_buildResultKey}
+build.name=${name}
+build.number=${bamboo_buildNumber}
+build.project=${bamboo_repository_name}
+build.vcs.branch=${bamboo_repository_branch_name}
+build.vcs.version=${bamboo_repository_revision_number}
+build.vcs.url=${bamboo_planRepository_repositoryUrl}
+build.project.version=${version}

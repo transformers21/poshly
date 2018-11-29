@@ -1,0 +1,21 @@
+
+# Available replacements
+# ------------------------------------------------
+# ${{author}}           debian author
+# ${{descr}}            debian package description
+# ${{exec}}             startup script name
+# ${{chdir}}            app directory
+# ${{retries}}          retries for startup
+# ${{retryTimeout}}     retry timeout
+# ${{app_name}}         normalized app name
+# ${{daemon_user}}      daemon user
+# -------------------------------------------------
+
+# JVM Settings
+-J-Xms128m -J-Xmx1024m
+-J-javaagent:${{chdir}}/lib/${{aspectj_jar}}
+-J-javaagent:${{chdir}}/lib/${{newrelic_jar}}
+-Dnewrelic.config.file=${{chdir}}/conf/newrelic.yml
+-Dnewrelic.environment=${{newrelic_env}}
+-Drun.mode=${{run_mode}}
+

@@ -1,0 +1,62 @@
+<div class="dashboard-heading">
+    <div class="container">
+        <div class="pull-left">
+            <div class="page-title">
+                <span class="page-icon">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Product-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Popular" transform="translate(-201.000000, -117.000000)" fill="#FFFFFF">
+                                <g id="nav_home_active" transform="translate(201.000000, 117.000000)">
+                                    <path d="M17.6075156,10.257 C17.4642656,10.38825 17.2842656,10.4535 17.1050156,10.4535 C16.9032656,10.4535 16.7030156,10.3725 16.5560156,10.21125 L16.3610156,9.99675 L16.3610156,16.43325 C16.3610156,17.2575 15.6935156,17.928 14.8737656,17.928 L11.8985156,17.928 C11.4882656,17.928 11.1552656,17.5935 11.1552656,17.18025 C11.1552656,17.13825 11.1725156,17.10075 11.1792656,17.06025 L11.1792656,11.92575 L6.69276564,11.94825 L6.69276564,17.18025 C6.69276564,17.5935 6.35976564,17.928 5.94951564,17.928 L2.97426564,17.928 C2.15451564,17.928 1.48701564,17.2575 1.48701564,16.43325 L1.48701564,9.99675 L1.29201564,10.21125 C1.01451564,10.515 0.543515644,10.536 0.241265644,10.257 C-0.0617343557,9.978 -0.0819843557,9.5055 0.195515644,9.201 L8.37576564,0.23175 C8.65776564,-0.07725 9.19026564,-0.07725 9.47226564,0.23175 L17.6525156,9.201 C17.9300156,9.5055 17.9097656,9.978 17.6075156,10.257 Z M14.9292656,8.427 L8.92401564,1.84275 L2.92926564,8.41575 L2.92926564,16.42575 L5.20551564,16.431 L5.20551564,11.94825 C5.20551564,11.124 5.87301564,10.4535 6.69276564,10.4535 L11.1552656,10.4535 C11.9757656,10.4535 12.6425156,11.124 12.6425156,11.94825 L12.6425156,16.431 L14.9292656,16.42575 L14.9292656,8.427 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+                <h2 class="title-sm">Newest Products</h2>
+            </div>
+        </div>
+        
+        <div class="dashboard-search pull-right">
+            <span class="search-icon">
+                <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Product-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Popular" transform="translate(-1019.000000, -119.000000)" fill="#A84EA6">
+                            <g id="Navigation-Bar/Search---White-Copy-4" transform="translate(1019.000000, 119.000000)">
+                                <g id="Float" transform="translate(0.000000, 0.210526)">
+                                    <path d="M9.49724818,8.50414663 C9.57736566,8.54059384 9.65227305,8.59161288 9.71775156,8.65709139 L13.149991,12.0893308 C13.4448449,12.3841847 13.4484764,12.858606 13.1535412,13.1535412 C12.860648,13.4464344 12.3812716,13.4419317 12.0893308,13.149991 L8.65709139,9.71775156 C8.59136995,9.65203012 8.54011707,9.5773874 8.50341407,9.49779951 C7.66716939,10.1270411 6.6271393,10.5 5.5,10.5 C2.73857625,10.5 0.5,8.26142375 0.5,5.5 C0.5,2.73857625 2.73857625,0.5 5.5,0.5 C8.26142375,0.5 10.5,2.73857625 10.5,5.5 C10.5,6.62746846 10.1268232,7.66777681 9.49724818,8.50414663 Z M5.5,9.5 C7.709139,9.5 9.5,7.709139 9.5,5.5 C9.5,3.290861 7.709139,1.5 5.5,1.5 C3.290861,1.5 1.5,3.290861 1.5,5.5 C1.5,7.709139 3.290861,9.5 5.5,9.5 Z" id="Search-Icon"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </span>
+            <input placeholder="search for product" type="search" class="landing-input" ng-model="searchText">
+        </div>
+    </div>
+</div>
+
+<section class="products">
+    <div class="container">
+        <div class="items">
+            <div class="item product-list-item" ng-repeat="item in allProducts | filter:searchText">
+                <a ng-href="{{'/#/product/' + item.productId}}">
+                    <span ng-if="item.productStatus" class="products-status products-status-new">{{item.productStatus}}</span>
+                    <div class="product-thumbnail">
+                        <img ng-src="{{item.productThumbnail}}" alt="thumbnail">
+                    </div>
+                    <div class="product-bar">
+                        <span ng-if="item.productPercentage > 0">{{item.productPercentage}}%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="{{item.productPercentage}}" aria-valuemin="0" aria-valuemax="100" ng-style="{width: item.productPercentage + '%'}"></div>
+                        </div>
+                    </div>
+                    <div class="product-list-body">
+                        <p>{{item.productName}}</p>
+                        <span>{{item.productBrand}}</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

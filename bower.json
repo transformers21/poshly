@@ -1,0 +1,46 @@
+{
+  "name": "products-ui",
+  "version": "1.0.0",
+  "authors": [
+    "Poshly Inc"
+  ],
+  "description": "Products UI",
+  "main": "index.html",
+  "keywords": [
+    "Big Data"
+  ],
+  "license": "Copyright (C) 2017 Poshly",
+  "homepage": "http://www.poshly.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests",
+    "project",
+    "target",
+    "_archive"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "3.3.7",
+    "es5-shim": "4.5.9",
+    "angular": "1.6.3",
+    "angular-bootstrap": "2.5.0",
+    "angular-animate": "1.6.3",
+    "angular-touch": "1.6.3",
+    "angular-route": "1.6.3",
+    "angular-sanitize": "1.6.3",
+    "angular-ui-router": "1.0.0-rc.1",
+    "angular-ui-select": "0.19.6",
+    "angulartics-google-analytics": "0.4.0",
+    "components-font-awesome": "4.7.0",
+    "angular-recaptcha": "^4.1.0"
+  },
+  "appPath": "app",
+  "moduleName": "Poshly Products UI",
+  "resolutions": {
+    "angular": "1.6.3"
+  }
+}

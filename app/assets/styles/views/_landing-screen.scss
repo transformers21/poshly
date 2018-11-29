@@ -1,0 +1,167 @@
+.landing-page {
+  body {
+    @extend %fontGothamBook;
+    color: $poshly-deep-black;
+    font-size: $base-font-size;
+    font-weight: $regular;
+    line-height: $base-line-height;
+    margin-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+    min-height:100%;
+  }
+
+  //.remember-me {
+  //  padding: 5px 0 10px 0;
+  //}
+  //
+  //.remember-me-text {
+  //  color: $poshly-sub-header-font;
+  //  margin-left: 7px;
+  //  font-size: 16px;
+  //}
+
+  input[type="checkbox"] {
+    margin-top: 7px;
+  }
+
+  a, a:active {
+    color: $poshly-secondary-shade;
+  }
+
+  a:focus, a:hover {
+    color: $poshly-primary;
+  }
+
+  // Core landing page styles.
+  .section {
+    color: $poshly-eggshell-white;
+    height:100%;
+    min-height:420px;
+    overflow:auto;
+    top:0;
+    width: 100%;
+    z-index: 1;
+
+    .login-background {
+      background-color: white;
+      padding-top: 19px;
+      padding-bottom: 10px;
+      border: 1px solid $btn-default-stroke;
+    }
+
+    .header-text {
+      color: #433e4a;
+      padding: 30px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 16px;
+      .title {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      @media (max-width: 359px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .landing-footer-container{
+      background-color:#2f3134;
+      color:#cccccc!important;
+      width:100%;
+      bottom: 0;
+      position: absolute;
+    }
+
+    .purple-design{
+      border:1px solid #882386!important;
+      background-color:#ffffff!important;
+      color:#882386!important;
+      margin:auto;
+    }
+
+    .purple-design:hover{
+      background-color: #882386!important;
+      color: #ffffff!important;
+    }
+
+    #landing-headline-text{
+      margin-left:0!important;
+      margin-right:0!important;
+      margin-top:0!important;
+      width:100%!important;
+      padding-left:0!important;
+      padding-right:0!important;
+    }
+
+    .landing-footer{
+      font-size:10px;
+      font-weight:700;
+      margin-bottom:10px;
+      color:#cccccc;
+    }
+
+    .landing-buttons{
+      display:inline;
+    }
+
+  }
+
+  .sign-up-block {
+    float: left;
+    width: 42%;
+    //border: 1px lightgray solid;
+    .acceptingToS {
+      color: #5c8e8a;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: justify;
+    }
+    .acceptToSBlock {
+      display: flex;
+      .checkbox {
+        margin-left: 5px;
+      }
+      .acceptToS {
+        color: #5c8e8a;
+        padding-left: 5px;
+      }
+    }
+    .signup-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+    #invalid_checkbox {
+      position: fixed;
+    }
+  }
+  .login-block {
+    float: right;
+    width: 49%;
+    //border: 1px lightgray solid;
+    .login-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .forgot-password {
+      float: right;
+    }
+  }
+  #check_your_email {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+
+#background{
+  background:#9a89b1 url("https://afefef6413373886bae4-5b5522445f6669185d82e1c80852d23c.ssl.cf2.rackcdn.com/home-large-purple-objects.jpg") no-repeat center;
+  background-size: cover;
+}

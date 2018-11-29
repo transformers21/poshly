@@ -1,0 +1,30 @@
+.newsfeed{
+	.newsfeed-item{
+		img{
+			width: 100%;
+		}
+	}
+	.news-header-main{
+		font-size: 19px;
+    padding: 0 25px;
+    font-weight: 300;
+    color: $poshly-new-purple;
+	}
+	.news-text{
+		font-family: 'SF UI Text Lt', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 100px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		color: $poshly-text-gray;
+		font-size: 12px;
+    padding: 0 25px;
+    margin-bottom: 25px;
+	}
+}
+
+
+.news-it-modal p{
+		font-family: 'SF UI Text Lt', sans-serif;
+}

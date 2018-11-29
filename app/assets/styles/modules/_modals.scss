@@ -1,0 +1,468 @@
+// Top Level styles for Poshly modal windows
+// The use of !important is required to override the default Bootstrap CSS
+
+.modal-dialog, .modal-content {
+  background-color: $modal-bg-color;
+}
+
+.request-modal-field-label{
+  margin-top: 15px!important;
+  margin-bottom: 0!important;
+}
+
+.request-modal-field-label-first{
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+.sample-representation-table{
+  
+}
+
+.modal-content {
+  @include border-radius(0);
+  overflow:hidden;
+}
+
+.modal-backdrop {
+  background-color: $poshly-accent-02-shade;
+  opacity:0.9 !important;
+}
+// Styles specific to request product modal.
+.request-products-modal {
+
+  .modal-dialog {
+    top: 85px !important;
+  }
+
+  .modal-body {
+    height: 150px;
+    padding: 20px 40px 30px 40px;
+    //overflow-y:  auto;
+  }
+
+  .modal-body p {
+    font-size: $font-paragraph;
+    margin: 0 0 15px;
+  }
+
+  .modal-title {
+    padding-left: 21px;
+    text-transform: uppercase;
+    @extend %fontGothamMedium;
+  }
+
+  .modal-footer {
+    border-top: 1px solid $btn-default-stroke;
+    margin: 0 0 -10px 0;
+    padding: 0;
+  }
+
+  .request-product-txt {
+    border: 1px solid $btn-default-stroke;
+    color: $poshly-body-copy;
+    height: 285px;
+    resize: none;
+    width: 100%;
+    @include border-top-radius(2px);
+    @include border-bottom-radius(0);
+    @extend %fontGothamBook;
+  }
+
+  .request-product-txt:focus  {
+    border: 1px solid $btn-default-focus-stroke;
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+  .right-border {
+    border-right: 1px solid $btn-default-stroke;
+  }
+
+  .col-md-6 {
+    padding: 0;
+  }
+
+}
+
+body{
+  padding-right: 0px!important;
+}
+
+.modal-open{
+  overflow-y: auto;
+  vertical-align: middle;
+}
+
+#loginScreenModal{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#loginScreenInputEnv{
+  text-align: left!important;
+}
+
+#loginScreenInputKey{
+  text-align: left!important;
+}
+
+.form-field-icon{
+  padding-left: 5px!important;
+}
+
+// Styles specific to landing page modals.
+.landing-container {
+
+  .modal-content{
+    width: 300px;
+  }
+
+  .modal-header {
+    border: none;
+  }
+
+  .modal-dialog {
+    padding: 0;
+    margin: auto;
+    width: 300px;
+
+      .close {
+        color: $dark-purple;
+        font-size: $font-size-h1;
+      }
+
+      .close:hover {
+        color: $poshly-purple;
+        font-size: $font-size-h1;
+      }
+
+  }
+
+}
+
+
+.landing {
+
+  .modal-dialog {
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 4px;
+
+    @media screen and (max-width: $screen-xs-min){
+      width: 90%;
+    }
+  }
+
+  .modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+
+    .login-modal-logo {
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+
+      .navbar-brand {
+        display: inline-block;
+        float: none;
+        margin: 40px 0 0 0;
+      }
+    }
+
+    .login-modal {
+      .nav-tabs {
+        border: none;
+
+        li {
+          width: 50%;
+
+          a {
+            margin: 0;
+            padding: 20px 15px;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            color: $gray-darker;
+            border-radius: 0;
+            text-align: center;
+            cursor: pointer;
+            letter-spacing: 1px;
+            @extend %MontserratBold;
+            text-transform: uppercase;
+            border-top: 3px solid $poshly-background-light;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+
+        .active > a {
+          color: $poshly-new-purple;
+          border-color: $poshly-new-purple;
+        }
+      }
+
+      .tab-content {
+        padding: 0 50px;
+
+        #forgot-password {
+          font-size: 15px;
+          @extend %SFUITextRegular;
+        }
+
+        .form-group {
+          margin-bottom: 25px;
+
+          label {
+            @extend %SFUITextBold;
+          }
+
+          .text-accent {
+            font-size: 16px;
+            @extend %SFUITextSemiBold;
+          }
+
+          button {
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Modal Buy It
+.modal-buy{
+  .modal-content{
+    border-radius: 4px;
+    margin-top: 10em;
+    background: white;
+    width: 303px;
+    margin: 6em auto;
+  }
+  .modal-dialog{
+    background: none;
+    width: 305px;
+  }
+}
+
+.buy-it-modal{
+  h1{
+    text-align: center;
+    color: $poshly-new-purple;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  a{
+    display: block;
+    img{
+      margin: 0 auto;
+      display: block;
+      padding: 2em 0;
+    }
+  }
+}
+//Modal List It
+
+.list-it-modal{
+  height: 25em;
+  .modal-content{
+    border-radius: 4px;
+    margin-top: 10em;
+    background: white;
+    width: 303px;
+    margin: 6em auto;
+  }
+  .modal-dialog{
+    background: none;
+    width: 305px;
+  }
+}
+
+.check-list{
+  height: 3em;
+  margin-left: 55px;
+}
+
+.list-it-modal{
+  h1{
+    text-align: center;
+    color: $poshly-new-purple;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 1em 0;
+  }
+  .checkboxFive {
+    width: 25px;
+    position: relative;
+    width: 20em;
+  }
+  .checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 0;
+    left: 0;
+    background: $poshly-background-light;
+    border-radius: 4px;
+    display: -webkit-inline-box;
+  }
+
+  .checkbox-label span{
+    display: block;
+    width: 10em;
+    margin-left: 1em;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 4px;
+    color: $poshly-text-gray;
+    font-family: 'Proxima Nova Bl';
+  }
+
+  .checkboxFive label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 7px;
+    background: transparent;
+    top: 4px;
+    left: 3px;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+  }
+  .checkboxFive label:before{
+    opacity: 0;
+    display: block;
+    content: ' ';
+    background: $poshly-new-purple;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+  .checkboxFive input[type=checkbox]:checked + label:after{
+    opacity: 1;
+  }
+  .checkboxFive input[type=checkbox]:checked + label:before{
+    opacity: 1;
+  }
+  .poshly-button-rounded{
+    border-radius: 30px;
+    margin: 1em auto;
+    display: block;
+    width: 220px;
+    font-weight: 300;
+    max-width: 240px;
+  }
+}
+
+//Modal News
+
+.modal-news{
+  .modal-content{
+    border-radius: 4px;
+  }
+  .modal-dialog{
+    border-radius: 4px;
+    width: 410px;
+    margin-bottom: 1em;
+    .news-it-modal{
+      padding-bottom: 2em;
+      h1{
+        text-align: center;
+        color: $poshly-new-purple;
+        font-weight: 300;
+      }
+      p{
+        text-align: center;
+        color: $poshly-background-purple-dark;
+        width: 330px;
+        margin: 0 auto; 
+      }
+      .poshly-button-rounded{
+        border-radius: 30px;
+        margin: 1em auto;
+        display: block;
+        padding: 1em 5.5em;
+      }
+    }
+  }
+}
+
+.buy-it-modal{
+  a{
+    width: 218px;
+    margin: 0 auto;
+    border-bottom: 1px solid #DAD7E0 !important;
+    &:last-child{
+      border: none;
+      border-bottom: none;
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm-min) { 
+  .modal-buy{
+    .modal-dialog {
+      margin: 5em auto;
+    }
+  } 
+  .modal-news{
+    .modal-dialog{
+      margin: 5em auto;
+    }
+  }
+}
+
+.modal-personalize{
+  .modal-dialog{
+    margin-top: 3em;
+    border-radius: 4px;
+    .modal-content{
+      border-radius: 4px;
+      span.count{
+        background: $poshly-new-purple;
+        background: #a84ea6;
+        padding: 0.7em;
+        color: white;
+        font-size: 22px;
+        margin: 2em;
+        margin-top: 1.5em;
+        display: inline-block;
+        border-radius: 31px;
+        font-family: 'SF UI Text Lt';
+        margin-bottom: 0;
+      }
+      h1{
+        font-size: 14px;
+        color: #a84ea6;
+        text-transform: uppercase;
+        margin-left: 3em;
+        font-family: 'SF UI Text Lt';
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .modal-personalize{
+    .modal-dialog {
+      width: 500px;
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+.set-my-account{
+	margin-bottom: 1em;
+	h1{
+		font-family: 'SF UI Text Lt';
+		color: $poshly-new-purple;
+		font-size: 20px;
+		font-weight: 400;
+		padding-left: 1em;
+    padding-top: 1em;
+	}
+	.poshly-button-rounded{
+		font-weight: 100;
+    padding: 0.6em 2.5em;
+    margin-top: 2.3em;
+    float: right;
+    margin-right: 2em;
+    font-family: 'SF UI Text Lt';
+	}
+	.set-account-data{
+		margin-top: 3em;
+	}
+	.set-accounts-inputs{
+		margin-top: 2em;
+		span{
+			display: block;
+			color: $poshly-background-purple-dark;
+			padding-bottom: 2em;
+			font-weight: 100;
+			padding-left: 22px;
+		}
+	}
+	.old-password{
+    margin-left: 21px;
+    padding-left: 45px;
+    margin-top: 8px;
+    padding-top: 9px;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    width: 91%;
+    margin-bottom: 2em;
+    background: url(../images/key.jpg) 18px center no-repeat;
+    &::-webkit-input-placeholder {font-weight: 100;}
+		&::-moz-placeholder          {font-weight: 100;}
+		&:-moz-placeholder           {font-weight: 100;}
+		&:-ms-input-placeholder      {font-weight: 100;}
+		outline: none;
+	}
+	.new-password{
+		margin-left: 21px;
+    padding-left: 45px;
+    margin-top: 8px;
+    padding-top: 9px;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    width: 91%;
+    margin-bottom: 2em;
+    background: url(../images/key.jpg) 18px center no-repeat;
+    &::-webkit-input-placeholder {font-weight: 100;}
+		&::-moz-placeholder          {font-weight: 100;}
+		&:-moz-placeholder           {font-weight: 100;}
+		&:-ms-input-placeholder      {font-weight: 100;}
+		outline: none;
+	}
+	.confirm-new-pass{
+		margin-left: 21px;
+    padding-left: 45px;
+    margin-top: 8px;
+    padding-top: 9px;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    width: 91%;
+    margin-bottom: 2em;
+    background: url(../images/key.jpg) 18px center no-repeat;
+    &::-webkit-input-placeholder {font-weight: 100;}
+		&::-moz-placeholder          {font-weight: 100;}
+		&:-moz-placeholder           {font-weight: 100;}
+		&:-ms-input-placeholder      {font-weight: 100;}
+		outline: none;
+	}
+	.button-pass{
+		font-weight: 100;
+    padding: 0.6em 2.5em;
+    margin-top: 0;
+    float: left;
+    margin-left: 18px;
+    margin-bottom: 30px;
+	}
+	.give-participation{
+		color: $poshly-new-purple;
+		margin-left: 19px;
+    padding-top: 1em;
+    font-size: 20px;
+	}
+	.participation-text{
+		color: $poshly-background-purple-dark;
+		margin: 2em 0;
+		span.count{
+			background: $poshly-new-purple;
+    	margin-left: 1.7em;
+    	padding: 8px 12px;
+    	margin-top: 2em;
+    	border-radius: 26px;
+    	color: white;
+    	margin-right: 1em;
+		}
+	}
+	.entries-count{
+		height: 48px;
+    width: 48px;
+    padding-top: 0px;
+    padding-right: 64px;
+    cursor: default;
+    text-align: center;
+    color: $poshly-background-purple-dark;
+    font-size: 46px;
+    &:after{
+    	content: 'ENTRIES';
+    	position: absolute;
+    	top: 80px;
+    	right: 43px;
+    	font-size: 21px;
+    	font-weight: 100;
+    }
+	}
+	.product-details{
+		padding: 10px 18px;
+		margin-top: 2em;
+		margin-top: 7px;
+	}
+	.text-accent{
+		font-weight: 300;
+		font-size: 19px;
+		width: 300px;
+		margin-top: 4px;
+	}
+	.product-name{
+		width: 300px;
+	}
+	img[alt="parcipating-image"]{
+		float: left;
+	}
+}
+
+.hide-footer{
+	display:none;
+}
+
+.participation-text{
+	font-family: 'SF UI Text Lt';
+}
+
+.line-set{
+    display: block;
+    margin: 0 auto;
+    margin-top: 6.5em;
+    position: relative;
+    right: 7px;
+}
+
+.line-set-pass{
+	display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  position: relative;
+  right: 2px;
+  margin-bottom: 27px;
+}
+
+.line-set-give{
+	display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  position: relative;
+  right: 5px;
+  margin-bottom: 6px;
+}
+
+		.set-my-account .poshly-button-rounded{
+			width: 115px;
+    	display: block;
+    	position: absolute;
+    	padding: 6px 0;
+    	top: 36px;
+    	right: 42px;
+    	font-size: 13px;
+    	margin-top: 0;
+    	margin-right: 0; 
+		}
+
+@media screen and (max-width: $screen-sm-min) { 
+	.product-item-info .product-details header{
+		    display: block;
+	}
+	.set-my-account .entries-count{
+		height: 50px;
+    width: 48px;
+    padding-top: 0px;
+    padding-right: 74px;
+    cursor: default;
+    text-align: center;
+    color: #45414e;
+    font-size: 46px;
+    margin-top: 2em;
+    display: block;
+    margin-top: 1em;
+	}
+	.set-my-account .entries-count:after{
+		content: 'ENTRIES';
+    position: absolute;
+    top: 144px; 
+    left: 78px;
+    font-size: 21px;
+    font-weight: 100;
+	}
+}
+

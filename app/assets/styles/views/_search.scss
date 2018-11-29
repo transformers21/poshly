@@ -1,0 +1,53 @@
+//Search page specific styles
+
+.search-container{
+	@include display-flex;
+	.search-form {
+		// @include display-flex;
+		position: absolute;
+		@include align-items(flex-start);
+		@include justify-content(center);
+		// @include centre;
+		// @include flex(1 1);
+		width: 100%;
+		margin-left: 40px;
+
+		fieldset {
+			width: 50%;
+		}
+		.form-group {
+			width: 100%;
+		}
+		label {
+			color: $base-text;
+			font-weight: 200;
+			padding: $text-padding;
+		}
+	}
+
+	//Circular tree
+
+	circular-tree {
+		@include centre;
+	}
+	.node circle {
+		fill: none;
+		stroke: none;
+		stroke-width: 1.5px;
+	}
+
+	.leaf .node {
+		fill: red;
+	} 
+
+	.node {
+		font: 12px sans-serif;
+	}
+
+	.link {
+		fill: none;
+		stroke: #ccc;
+		stroke-width: 2.5px;
+	}///Circular tree
+
+}///Search container

@@ -1,0 +1,204 @@
+// Font kit using the gotham font pack from www.typography.com
+// Font being pulled via external URL:
+// Font styles and family set below
+/*
+Gotham Extra Light
+font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+
+Gotham Light
+font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+
+Gotham Book
+font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
+
+Gotham Medium
+font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 500; font-style: normal;
+
+Gotham X-Narrow Light
+font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
+*/
+
+// TODO: Add media queries to reduce font sizes in the following increments, 100%, 90%, 80%, 75% (fine tune)
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Regular.woff') format('woff'),
+  url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('../fonts/ProximaNova-Light.eot');
+  src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Light.woff') format('woff'),
+  url('../fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Bold.woff') format('woff'),
+  url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text Rg';
+  src: url('../fonts/SFUIText-Regular.eot');
+  src: url('../fonts/SFUIText-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIText-Regular.woff') format('woff'),
+  url('../fonts/SFUIText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text Lt';
+  src: url('../fonts/SFUIText-Light.eot');
+  src: url('../fonts/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIText-Light.woff') format('woff'),
+  url('../fonts/SFUIText-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Display Th';
+  src: url('../fonts/SFUIDisplay-Thin.eot');
+  src: url('../fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIDisplay-Thin.woff') format('woff'),
+  url('../fonts/SFUIDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text SeBl';
+  src: url('../fonts/SFUIText-Semibold.eot');
+  src: url('../fonts/SFUIText-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIText-Semibold.woff') format('woff'),
+  url('../fonts/SFUIText-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text Bold';
+  src: url('../fonts/SFUIText-Bold.eot');
+  src: url('../fonts/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUIText-Bold.woff') format('woff'),
+  url('../fonts/SFUIText-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+%fontGothamExtraLight {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 200;
+  font-style: normal;
+}
+
+%fontGothamLight {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 300;
+  font-style: normal;
+}
+
+%fontGothamBook {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 400;
+  font-style: normal;
+}
+
+%fontGothamMedium {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 500;
+  font-style: normal;
+}
+
+%fontGothamExtraNarrowLight {
+  font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 300;
+  font-style: normal;
+}
+
+%fontGothamExtraNarrowMedium {
+  font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 400;
+  font-style: normal;
+}
+
+%fontGothamExtraNarrowHeavy {
+  font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B', Helvetica, Arial, 'sans-serif';
+  font-weight: 500;
+  font-style: normal;
+}
+
+%ProximaNovaBold {
+  font-family: 'Proxima Nova Bl', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+%ProximaNovaRegular {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+%ProximaNovaLight {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+%MontserratRegular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+%MontserratBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
+%SFUITextRegular {
+  font-family: 'SF UI Text Rg', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+%SFUITextLight {
+  font-family: 'SF UI Text Lt', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+%SFUIDisplayThin {
+  font-family: 'SF UI Display Th', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+%SFUITextBold {
+  font-family: 'SF UI Text Bold', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+%SFUITextSemiBold {
+  font-family: 'SF UI Text SeBl', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}

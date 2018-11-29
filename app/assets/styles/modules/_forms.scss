@@ -1,0 +1,99 @@
+// Styles for form fields used throughout Insights Application
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.landing-page {
+
+  .input-lg, .input-group-lg > .form-control,
+  .input-group-lg > .input-group-addon,
+  .input-group-lg > .input-group-btn > .btn {
+    @include border-radius(3px);
+    border: 1px solid $btn-default-stroke;
+    margin-top: -25px;
+  }
+
+  input[placeholder], [placeholder], *[placeholder] {
+    text-indent: 25px;
+  }
+
+  input.login-username[type='text'], input.login-password[type='password'] {
+    text-indent: 25px;
+  }
+}
+
+.form-inline, .form-group, .form-control {
+
+  input:focus  {
+    border: 1px solid $btn-default-focus-stroke;
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+  .form-field-icon  {
+    color: $poshly-medium-gray;
+    font-size: 22px;
+    left: 0px;
+    position: relative;
+    top: 12px;
+  }
+
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+  @extend %SFUITextRegular;
+  color: $poshly-medium-gray;
+  font-size: $font-paragraph;
+  text-align: left;
+}
+
+.landing-input {
+  padding: 15px;
+  border: none;
+  font-size: 12px;
+  color: black;
+  font-weight: lighter;
+  outline: none;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 1px 1px 20px -4px rgba(0, 0, 0, 0.3);
+
+  &[placeholder] {
+    font-size: 15px;
+  }
+
+  &:focus {
+    border: none !important;
+    box-shadow: 1px 1px 20px -4px rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
+
+.form-inline {
+  .landing-input {
+    width: 100%;
+  }
+}
+
+.form-control {
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+
+  padding: 10px 0;
+  text-indent: 0;
+  border-bottom: 1px solid $poshly-background-shade;
+  transition: all .2s ease-in-out;
+
+  &:focus  {
+    border: none !important;
+    border-bottom: 1px solid $poshly-new-purple !important;
+  }
+}

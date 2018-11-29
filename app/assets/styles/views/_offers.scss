@@ -1,0 +1,40 @@
+.offers{
+	.items{
+		.item{
+			background: $poshly-eggshell-white;
+			cursor: pointer;
+			border-radius: 4px;
+			h1{
+				font-size: 18px;
+				font-weight: 400;
+				margin-left: 25px;
+				padding-bottom: 15px;
+				border-bottom: 1px solid $border-offers;
+				background: url(../images/offers/Indicator.png) 94% 24% no-repeat;
+			}
+		}
+	}
+	.products-status-new{
+		position: absolute;
+    display: block;
+    padding: 2px 5px;
+    max-width: 48px;
+    max-height: 48px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px 0 4px 0;
+    text-transform: uppercase;
+    background-color: #a84ea6;
+    right: 0;
+	}
+}
+
+.offers .items .item{
+	height: inherit;
+	min-height: 210px;
+}
+
+.offers .items .item h1 {
+	 font-family: 'SF UI Text Rg';
+}

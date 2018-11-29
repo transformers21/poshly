@@ -1,0 +1,64 @@
+.navbar-header{
+  margin: 0 auto !important;
+  background-color: #fbfbfa;
+  height: 64px;
+}
+
+.header, .landing-footer, .login-modal-logo{
+  .navbar-brand {
+    background: url("https://afefef6413373886bae4-5b5522445f6669185d82e1c80852d23c.ssl.cf2.rackcdn.com/logo-color-small@1x-optimized.png") no-repeat;
+    background-size: 131px 50px;
+    height: 50px !important;
+    width: 133px !important;
+    margin: 9px 0 0 15px;
+  }
+
+  .navbar-brand-white {
+    @extend .navbar-brand;
+    background: url("../images/logo/logo-white-small@1x.png");
+  }
+
+  // Retina screen size
+  @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-moz-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    .navbar-brand {
+      background: url("../images/logo/logo-color-small@2x.png") no-repeat;
+      background-size: 131px 50px;
+      height: 50px !important;
+      width: 133px !important;
+      margin-bottom: 5px;
+      margin-top: 9px;
+    }
+
+    .navbar-brand-white {
+      background: url("../images/logo/logo-white-small@2x.png");
+      background-size: 131px 50px;
+    }
+  }
+}
+
+/* Footer icons */
+// Standard screen size
+.footer-brand {
+  background: url("../../assets/images/logo/icon-color-small.png") no-repeat;
+  background-size: 51px 50px;
+  height: 50px;
+  width: 51px;
+  margin: 0 auto;
+}
+
+// Retina screen size
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .footer-brand {
+    background: url("../../assets/images/logo/icon-color-small@2x.png") no-repeat;
+    background-size: 51px 50px;
+    height: 50px;
+    width: 51px;
+    margin: 0 auto;
+  }
+}

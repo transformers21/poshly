@@ -1,0 +1,71 @@
+[0m[[0minfo[0m] [0mscalastyle using config /Volumes/WORKS/Jobs in progress/Poshly/products-ui/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/AuthenticationActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/AuthenticationActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/BaseRoute.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/BaseRoute.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ConfigurationActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ConfigurationActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/LogoutActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/LogoutActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/MailActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/MailActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductMobileActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductMobileActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductsWebActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/ProductsWebActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/QuestionActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/QuestionActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/UserActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/UserActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/UserMobileActor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/actors/UserMobileActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Configuration.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Configuration.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/AuthToken.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/AuthToken.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/BrandsMapper.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/BrandsMapper.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/CompleteProductEnvelope.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/CompleteProductEnvelope.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/LocationWithNameAndPhone.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/LocationWithNameAndPhone.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/Mail.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/Mail.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/OfferUI.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/OfferUI.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/OpenEndedResponse.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/OpenEndedResponse.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/Result.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/Result.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/SessionTracking.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/data/SessionTracking.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Json4sProtocol.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Json4sProtocol.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Monitor.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/Monitor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/ProductsServer.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/ProductsServer.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/EndRoutesHelper.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/EndRoutesHelper.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/RoutesUtil.scala[0m
+[0m[[33mwarn[0m] [0m/Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/RoutesUtil.scala: File length exceeds 800 lines[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/RoutesUtil.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/AuthenticationService.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/AuthenticationService.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/SecurityCache.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/SecurityCache.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/UserService.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/services/UserService.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/util/auth/Authorizer.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/util/auth/Authorizer.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/util/PlaceHolder.scala[0m
+[0m[[0mdebug[0m] [0mend file /Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/util/PlaceHolder.scala[0m
+[0m[[0minfo[0m] [0mProcessed 31 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 1 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 6 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /Volumes/WORKS/Jobs in progress/Poshly/products-ui/target[0m

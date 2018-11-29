@@ -1,0 +1,109 @@
+// Styles for notifications used throughout Insights Application
+
+.alert {
+  color: $poshly-eggshell-white;
+  font-size: $font-size-h6;
+  height: 40px;
+  padding: 0 8px 8px 8px;
+  margin-top: -1px;
+  @include border-bottom-radius(3px);
+  @include border-top-radius(0px);
+
+    .notification-text {
+      bottom: 5px;
+      font-size: $font-size-md;
+      margin-left: 10px;
+      position: relative;
+    }
+
+  @media (min-width: 768px) {
+    .notification-text {
+       font-size: $font-size-h6;
+     }
+
+    .notification-text-invalid {
+      font-size: $font-size-md;
+      bottom: -5px;
+      margin-left: 2px;
+      position: relative
+
+
+
+
+
+      
+    }
+  }
+
+}
+
+.invalid-message {
+  @include border-radius(3px);
+
+    .notification-text {
+      bottom: -5px;
+      margin-left: 10px;
+      position: relative;
+    }
+}
+
+// Notification panel colors
+.alert-primary {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+}
+
+.alert-success {
+  background-color: $brand-success;
+  border-color: $brand-success;
+}
+
+.alert-info {
+  background-color: $brand-info;
+  border-color: $brand-info;
+}
+
+.alert-warning {
+  background-color: $brand-warning;
+  border-color: $brand-warning;
+  height: auto;
+
+  .arrow-up {
+    border-bottom: 12px solid $brand-warning;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    left: 2px;
+    position: relative;
+    top: -12px;
+    width: 0;
+  }
+}
+
+.alert-danger {
+  background-color: $brand-danger;
+  border-color: $brand-danger;
+}
+
+// Form notification border colors
+.form-inline, .form-group, .form-control {
+  .field-alert-primary {
+    border: 1px solid $brand-primary;
+  }
+
+  .field-alert-success {
+    border: 1px solid $brand-success;
+  }
+
+  .field-alert-info {
+    border: 1px solid $brand-info;
+  }
+
+  .field-alert-warning {
+    border: 1px solid $brand-warning;
+  }
+
+  .field-alert-danger {
+    border: 1px solid $brand-danger;
+  }
+}

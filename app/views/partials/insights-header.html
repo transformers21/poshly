@@ -1,0 +1,47 @@
+<div class="header main-header clearfix insights-header">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="header-container" ng-controller="NavigationCtrl">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <a class="navbar-brand-white" ui-sref="innerinsights"></a>
+
+            <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+                <ul class="nav navbar-nav navbar-settings">
+                    <li ng-controller="personalizeCtrl">
+                        <a class="lnk lnk-personalize lnk-explore" ng-class="{active: isActive('/innerinsights'), active: isActive('/tables'), activeb: isActive('/innerinsights'),activeb: isActive('/tables')}">EXPLORE INSIGHTS</a>
+                    </li>
+                    <li ng-controller="personalizeCtrl">
+                        <a class="lnk lnk-personalize" ng-click="openInsights()">REQUEST AN INSIGHT</a>
+                    </li>
+                    <li>
+                        <a class="lnk lnk-settings" ng-click="openFaq()">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="" ng-click="redirectHome()" class="lnk lnk-logout">
+                            <svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <defs></defs>
+                                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+                                    <g id="logout-svg" transform="translate(-1394.000000, -27.000000)" fill="#FFFFFF">
+                                        <g id="Group-2-Copy">
+                                            <g id="logout" transform="translate(1394.000000, 27.000000)">
+                                                <path d="M17.41236,18 L8.322,18 C7.48752,18 6.80884,17.32725 6.80884,16.5 L6.80884,12.75 C6.80884,12.336 7.14704,12 7.56504,12 C7.9838,12 8.322,12.336 8.322,12.75 L8.322,16.5 L17.41236,16.5 L17.41236,1.5 L8.322,1.5 L8.322,5.25 C8.322,5.664 7.9838,6 7.56504,6 C7.14704,6 6.80884,5.664 6.80884,5.25 L6.80884,1.5 C6.80884,0.67275 7.48752,0 8.322,0 L17.41236,0 C18.24684,0 18.92552,0.67275 18.92552,1.5 L18.92552,16.5 C18.92552,17.32725 18.24684,18 17.41236,18 Z M3.33716,8.25 L13.61996,8.25 C14.03872,8.25 14.37692,8.586 14.37692,9 C14.37692,9.414 14.03872,9.75 13.61996,9.75 L3.33716,9.75 L5.073,11.46975 C5.36864,11.763 5.36864,12.237 5.073,12.53025 C4.92556,12.6765 4.73176,12.75 4.53796,12.75 C4.34416,12.75 4.15036,12.6765 4.00292,12.53025 L0.97584,9.531 C0.90592,9.46125 0.85044,9.37875 0.81168,9.2865 C0.77444,9.1965 0.75544,9.10125 0.75468,9.00525 C0.75468,9.003 0.75316,9.0015 0.75316,9 C0.75316,8.9985 0.75468,8.997 0.75468,8.9955 C0.75468,8.8995 0.77444,8.8035 0.81168,8.7135 C0.85044,8.62125 0.90592,8.53875 0.97584,8.469 L4.00292,5.46975 C4.29856,5.1765 4.77736,5.1765 5.073,5.46975 C5.36864,5.763 5.36864,6.237 5.073,6.53025 L3.33716,8.25 Z" id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

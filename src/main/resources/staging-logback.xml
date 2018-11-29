@@ -1,0 +1,50 @@
+<configuration>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <appender name="stdout-file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/console.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/archives/console.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="error-file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/error.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/archives/error.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="stdout-file"/>
+        <appender-ref ref="error-file"/>
+    </root>
+
+    <logger name="org.apache.zookeeper" level="WARN"/>
+    <logger name="org.apache.zookeeper.ZooKeeper" level="WARN"/>
+
+    <logger name="org.apache.http" level="INFO"/>
+    <logger name="org.apache.http.wire" level="WARN"/>
+    <logger name="org.apache.http.client.protocol" level="ERROR"/>
+
+    <logger name="sun.net.www" level="WARN"/>
+
+    <logger name="com.mongodb.casbah.commons.conversions.scala" level="INFO"/>
+    <logger name="com.mongodb.driver.cluster" level="INFO"/>
+
+</configuration>

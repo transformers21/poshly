@@ -1,0 +1,172 @@
+<!doctype html>
+<html class="no-js landing-page">
+<head>
+  <meta charset="utf-8">
+  <title>Poshly | Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/app/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/images/logo/app/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/logo/app/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/images/logo/app/manifest.json">
+  <link rel="mask-icon" href="assets/images/logo/app/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/images/logo/app/favicon.ico">
+  <meta name="msapplication-config" content="assets/images/logo/app/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript">
+    var domain = document.domain;
+    var uidLIB = {
+      "dev.poshly.com": "UA-XXXX-Y",
+      "local.dev.poshly.com": "UA-XXXX-Y",
+      "products.poshly.com": "UA-31149318-3"
+    };
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', (uidLIB[domain] || '')]);
+    _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body class="landing-page" id="background">
+<!--[if lt IE 11]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please
+  <a href="http://browsehappy.com/"> upgrade your browser</a> to improve your experience.
+</p>
+<![endif]-->
+
+
+<!-- Title (body) section -->
+<section class="section" role="Body Content">
+  <div class="container" id="landing-headline-text">
+    <!--<div id="background">-->
+    <div style="width:148px!important; min-height:0px!important;z-index:200000000;margin-left:20px!important">
+      <img src="https://afefef6413373886bae4-5b5522445f6669185d82e1c80852d23c.ssl.cf2.rackcdn.com/logo-color-medium@1x-optimized.png" alt=""
+           style="height:50px!important;width:131px!important;z-index:200000001;margin-left:15px!important"></div>
+    <div class="col-md-8 col-md-offset-2 text-center header-text">
+      <p class="title">WELCOME TO A NEW, PERSONALIZED PRODUCT EXPERIENCE!</p>
+      <div class="header-content">Log in with your Poshly account to rate & review products. Have questions? Email us at
+        members@poshly.com.
+      </div>
+    </div>
+
+    <div class="container col-md-4 col-md-offset-4 login-background">
+      <form id="login-form">
+        <div class="form-group" id="loginScreenInputEnv">
+          <span class="form-field-icon fa fa-envelope" id="loginModalIconEnv"></span>
+          <input type="text"
+                 class="form-control input-lg login-username"
+                 placeholder="Username or Email"
+                 name="username"
+                 id="username">
+
+          <div style="display: none" id="invalid_username" class="alert alert-warning" role="alert">
+            <div class="arrow-up"></div>
+            <span class="sr-only">Error:</span>
+            <span class="notification-text">Please enter a username or email</span>
+          </div>
+          <div style="display: none" id="invalid_email" class="alert alert-warning" role="alert">
+            <div class="arrow-up"></div>
+            <span class="sr-only">Error:</span>
+            <span class="notification-text" id="invalid_email_message"></span>
+          </div>
+
+        </div>
+        <div class="form-group" id="loginScreenInputKey">
+          <span class="form-field-icon fa fa-key" id="loginModalIconKey"></span>
+          <input type="password"
+                 class="form-control input-lg login-password"
+                 placeholder="Password"
+                 name="password"
+                 id="password">
+
+          <div style="display: none" id="invalid_password" class="alert alert-warning" role="alert">
+            <div class="arrow-up"></div>
+            <span class="sr-only">Error:</span>
+            <span class="notification-text">Please enter your password</span>
+          </div>
+        </div>
+
+        <div style="display: none" id="invalid_message" class="alert alert-warning invalid-message" role="alert">
+          <span class="sr-only">Error:</span>
+          <span class="notification-text-invalid">Enter a valid username/email and password</span>
+        </div>
+        <div>
+        <div class="sign-up-block">
+          <button type="submit"
+                  class="btn btn-default btn-lg text-uppercase signup-button"
+                  id="signup-button">
+            Sign up
+          </button>
+          <div class="acceptingToS">
+            By clicking SIGN UP you are agreeing to the
+            <a href="https://poshly.com/about/legal/terms/?source=poshly"> Terms of Service</a>
+          </div>
+        </div>
+        <div class="login-block">
+          <button type="submit"
+                  class="btn btn-default btn-lg text-uppercase login-button"
+                  id="login-button"
+                  onClick="_gaq.push(['_trackEvent', 'Login Button', 'Click', 'Login']);">
+            Login
+          </button>
+          <a id="forgot-password"
+             class="forgot-password"
+             href="https://poshly.com/sign-in/recover">
+            Forgot Password?
+          </a>
+        </div>
+        </div>
+      </form>
+
+      <div style="display: none" id="check_your_email" class="alert alert-info" role="alert">
+        <span class="sr-only">Please check your email to verify your Poshly Account</span>
+        <span class="notification-text">Just one more step! Check your email to verify your Poshly Account.</span>
+      </div>
+    </div>
+
+
+    <div class="footer-container container landing-footer-container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center copyright">
+          <div class="footer-text landing-footer">&copy;2017 Poshly Inc.</div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- build:css(.) assets/styles/vendor.css -->
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.css" />
+<link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:css(.tmp) assets/styles/main.css -->
+<link rel="stylesheet" href="assets/styles/main.css">
+<!-- endbuild -->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+<!-- build:js({.tmp,app}) assets/scripts/landing-scripts.js -->
+<script src="assets/scripts/custom/landing-page/landing-auth.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

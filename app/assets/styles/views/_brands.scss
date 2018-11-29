@@ -1,0 +1,36 @@
+.brand-container {
+  max-width: 900px;
+
+  .product-brand {
+    text-align: center;
+    margin-top: 10px;
+    img{
+      display: block;
+      margin: 0 auto; 
+    }
+  }
+  .product-size{
+    color: #004080;
+    font-size: 14px;
+    font-weigth:bold;
+  }
+  .product-color{
+    color: #004080;
+    font-size: 14px;
+    font-weigth:bold;
+  }
+}
+
+.product-brand {
+  height: 85px;
+  margin: 10px 0;
+  img{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

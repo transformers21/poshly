@@ -1,0 +1,126 @@
+<div class="container container-innerinsights">
+	<div class="row">
+		<div class="col-md-3 left-insights-tabs">
+			<div class="col-md-6 col-xs-6 tab-left">
+				<div ng-class="{ active_tab: isSet(1) }">
+					<a href ng-click="setTab(1)">RECOMMENDED</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-6 tab-left">
+				<div ng-class="{ active_tab: isSet(2) }">
+					<a href ng-click="setTab(2)">FAVORITES</a>
+       	</div>
+       </div>
+       <div class="col-md-12 left-list-main">
+       	<div ng-show="isSet(1)">
+         	 <ul>
+         	 	<li>Demographics</li>
+         	 	<li class="li-purple">Age</li>
+         	 	<li class="li-purple">Ethnicity</li>
+         	 	<li class="li-purple">U.S. Region</li>
+         	 	<li>Psychographics</li>
+         	 	<li class="li-purple">Moms</li>
+						<li class="li-purple">Millennial</li>
+						<li class="li-purple">Early Adopters</li>
+						<li>Products</li>
+         	 	<li class="li-purple">Bronzer</li>
+						<li class="li-purple">Cleanser</li>
+						<li class="li-purple">BB cream</li>
+						<li>Retail</li>
+         	 	<li class="li-purple">Online Shopper</li>
+						<li class="li-purple">Mobile Shopper</li>
+						<li class="li-purple">Coupon user</li>
+         	 </ul>
+        </div>
+				<div ng-show="isSet(2)">
+          	<ul>
+         	 	<li>Psychographics</li>
+         	 	<li class="li-purple">Moms</li>
+						<li class="li-purple">Millennial</li>
+						<li class="li-purple">Early Adopters</li>
+						<li>Products</li>
+         	 	<li class="li-purple">Bronzer</li>
+						<li class="li-purple">Cleanser</li>
+						<li class="li-purple">BB cream</li>
+						<li>Retail</li>
+         	 	<li class="li-purple">Online Shopper</li>
+						<li class="li-purple">Mobile Shopper</li>
+						<li class="li-purple">Coupon user</li>
+         	 </ul>
+     		</div>
+       </div>
+  	</div>
+  	<div class="col-md-9 inner-insights-search">
+				<div class="col-md-4">
+					<input type="text" placeholder="What do you want to know?" class="serch-insights-input">
+				</div>
+				<div class="col-md-4">
+					<span class="filter-by">FILTER BY<img src="../assets/images/insights/triangle.png" alt="triangle"></span>
+					<span class="filter-by">SORT BY<img src="../assets/images/insights/triangle.png" alt="triangle"></span>
+					<span><img src="../assets/images/insights/lamp.png" alt="lamp"></span>
+				</div>
+				<div class="col-md-4">
+					<div class="btn-group btn-group-justified left-btns" role="group" aria-label="...">
+  					<button type="button" class="btn btn-default" aria-label="Left Align">
+  						<img src="../assets/images/insights/percent.png" alt="">
+						</button>
+					<button type="button" class="btn btn-default" aria-label="Right Align">
+						<span>#</span>
+					</button>
+				</div>
+				<div class="btn-group btn-group-justified right-btns" role="group" aria-label="...">
+  					<button type="button" class="btn btn-default" aria-label="Left Align">
+  						<img src="../assets/images/insights/star.png" alt="">
+						</button>
+					<button type="button" class="btn btn-default" aria-label="Center Align">
+						<img src="../assets/images/insights/graph.png" alt="">
+					</button>
+					<button type="button" class="btn btn-default" aria-label="Center Align">
+						<img src="../assets/images/insights/refresh.png" alt="">
+					</button>
+					<button type="button" class="btn btn-default" aria-label="Center Align">
+						<img src="../assets/images/insights/grid copy.png" alt="">
+					</button>
+					<button type="button" class="btn btn-default" aria-label="Right Align">
+						<img src="../assets/images/insights/info copy.png" alt="">
+					</button>
+				</div>
+		</div>
+		<img src="../assets/images/insights/table-example.png" alt="table-example" class="table-example">
+		<div class="col-md-12 main-tables-col">
+			<h1>Do you use matte lip color products?<span>2,477</span></h1>
+			<h1 class="table-header">Do you use matte lip color products <button>DOWNLOAD</button></h1>
+			  <table class="table insights-table" style="border-collapse: collapse; border: none;">
+    <thead>
+      <tr>
+        <th>Response</th>
+        <th># of Respondents</th>
+        <th>% of Respondents</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Yes, and I prefer matte lipsticks</td>
+        <td>933</td>
+        <td>24%</td>
+      </tr>
+      <tr>
+        <td>Yes, and I prefer matte lip crayons</td>
+        <td>334</td>
+        <td>13.5%</td>
+      </tr>
+      <tr>
+        <td>Yes, and I prefer matte liquid lip stains</td>
+        <td>377</td>
+        <td>15.2%</td>
+      </tr>
+      <tr>
+        <td>No, I prefer other formulations</td>
+        <td>550</td>
+        <td>22.2%</td>
+      </tr>
+    </tbody>
+  </table>
+		</div>
+	</div>
+</div>

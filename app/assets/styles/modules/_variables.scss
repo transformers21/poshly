@@ -1,0 +1,99 @@
+/// BEGIN: Global variables
+$default-box-sizing: border-box;
+
+//font-weights
+$light: 100;
+$semi-regular: 200;
+$regular: 300;
+$semi-bold: 400;
+$bold: 500;
+$xtrabold: 700;
+
+//font-size
+$font-paragraph: 16px;
+$font-body: 16px;
+$font-size-logo: 26px;
+$font-size-md: 14px;
+$font-size-sm: 12px;
+$font-size-xl: 48px;
+$font-size-xxl: 100px;
+
+//Heading fonts
+$font-size-h1: 30px;
+$font-size-h2: 32px;
+$font-size-h3: 28px;
+$font-size-h4: 24px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+//Landing page fonts
+$font-size-landing-h1: 120px;
+$font-size-landing-h2: 75px;
+$font-size-landing-h3: 28px;
+
+$font-size-landing-mobile-h1: 45px;
+$font-size-landing-mobile-h2: 40px;
+$font-size-landing-mobile-h3: 25px;
+
+//Button fonts
+$btn-default-font-size: $font-paragraph;
+$btn-default-font-color: $poshly-eggshell-white;
+
+
+//Vertical Rhythm. More on http://compass-style.org/reference/compass/typography/vertical_rhythm/
+$base-font-size: 18px;
+$base-line-height: 1.5em;
+$base-character-spacing: 0.05em;
+
+$common-view-padding: 20px;
+
+$text-pad: 6px;
+$text-padding: 6px 12px;
+$container-padding: 10px;
+
+$container-margin: 20px;
+$border-color: #e4e4e4;
+
+$chartlet-width: 550px;
+
+
+// Header/Nav bar settings
+$header-height: 100px;
+$header-margin-bottom: $header-height + 30;
+$nav-bar-height: 65px;
+
+// Top bar filters and general filters
+$filters-height: $header-height/2;
+$filters-margin-top: -50px;
+$filters-search-margin-top: -40px;
+$filters-insights-height: 60px;
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+/// END: Global variables

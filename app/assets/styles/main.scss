@@ -1,0 +1,45 @@
+@import "compass";
+@import "compass/reset";
+
+$icon-font-path: "../../assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+//TODO: This section needs to be cleaned up and optimized. Currently the structure is cluttered.
+//TODO: Add conditional statements to pull in requires mixins for landing and application index file.
+//TODO: Prune the views import section.
+
+// Modules import
+@import "modules/fontkit";
+@import "modules/colors";
+@import "modules/variables";
+@import "modules/utility";
+@import "modules/modals";
+@import "modules/images";
+@import "modules/columns";
+// end Modules import
+
+// Base file for variables and other fixed requirements.
+@import "modules/base";
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/notifications";
+
+//Views import
+@import "views/dashboard";
+@import "views/footer";
+@import "views/products";
+@import "views/brands";
+@import "views/header";
+@import "views/landing-screen";
+@import "views/landing";
+@import "views/newsfeed";
+@import "views/offers";
+@import "views/lists";
+@import "views/settings";
+@import "views/insights";
+@import "views/tables";
+
+//end views import

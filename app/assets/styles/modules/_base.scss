@@ -1,0 +1,208 @@
+@include establish-baseline;
+
+// Global style settings
+
+html {
+  @extend %fontGothamBook;
+  font-size: $font-body;
+  min-height: 100%;
+  position: relative;
+
+  // Required by http://angular-ui.github.io/bootstrap/ to override the default bootstrap link elements
+  .nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+  }
+
+  button, a,
+  a:hover,
+  a:active, li a:active, .btn:active,
+  a:visited, li a:visited, .btn:visited,
+  a:focus, li a:focus, .btn:focus,
+  .btn-group {
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+
+  // Override select 2 default styles globally
+  // Move this into media query, does not scale well on lower screen resolutions
+  .select2-container .select2-choice {
+    height: 35px;
+    line-height: 33px;
+    font-size: $font-size-h6;
+  }
+}
+
+.dropdown-menu{
+  color: #333!important;
+}
+
+.spacer20{
+  width: 10%;
+}
+
+.spacer80{
+  width: 70;
+}
+
+.inline-landing{
+  display: inline-block;
+}
+
+#landing-page-top{
+
+}
+
+body {
+  @extend %fontGothamBook;
+  background-color: $poshly-background-light;
+  color: $poshly-body-copy;
+  height: 100%;
+  line-height: $base-line-height;
+
+  &:not(.landing) {
+    padding-top: $header-height;
+  }
+
+  .content-bg {
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+  }
+
+  .content-container {
+    padding: 0;
+  }
+
+  p {
+    color: $poshly-body-copy;
+  }
+
+  .product-in-list{
+    margin-top: 20px;
+    .product-link {
+      display: block;
+      text-align: center;
+      .product-thumbnail {
+        max-height: 147px;
+        max-width: 147px;
+        border: 1px solid #c3c3c3;
+      }
+      //.poshly-product-thumbnail {
+      //  background: white url(../../assets/images/logo/icon-color-large.png) no-repeat 33px/80px;
+      //  height: 147px;
+      //  width: 147px;
+      //  border: 1px solid #c3c3c3;
+      //  @include center-block();
+      //}
+      .product-title{
+        text-align: center;
+        margin-top: 10px;
+        color: #8e8e8e;
+        font-size: 16px;
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+.navbar, .navbar-default, .navbar-fixed-top{
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0;
+  height: $nav-bar-height;
+  margin-bottom: 0;
+  background-color: #fbfbfa;
+}
+.navbar-collapse {
+  border-color: #e7e7e7;
+  background-color: #fbfbfa;
+}
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font: 400 15px/25px "brandon-grotesque",sans-serif;
+  color: $poshly-logo-font;
+}
+
+h1, .h1 {
+  font-size: $font-size-h1;
+  font-weight: $light;
+}
+
+h2, .h2 {
+  font-size: $font-size-h2;
+}
+
+h3, .h3 {
+  font-size: $font-size-h3;
+}
+
+h4, .h4 {
+  font-size: $font-size-h4;
+}
+
+h5, .h5 {
+  font-size: $font-size-h5;
+}
+
+h6, .h6 {
+  font-size: $font-size-h6;
+}
+
+
+// Media queries
+
+// Display mobile screen only
+@media (max-width: $screen-sm-min - 1) {
+  body {
+    .content-bg {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: $screen-sm-min) {
+  blockquote {
+    border: none;
+    margin: 0 0 10px 5px;
+  }
+}
+@media (min-width: $screen-md-min) {
+  blockquote {
+    border: none;
+    margin: 0 0 15px 5px;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  blockquote {
+    border: none;
+    margin: 0 0 20px 5px;
+  }
+}
+
+.dropdown-menu>.active{
+  color: #fff!important;
+}
+
+.ui-select-choices-group>.active{
+  color: #fff!important;
+}
+
+.carousel-control {
+  background-image: none !important;
+}
+
+.no_footer {
+  display: none !important;
+}
+
+.text-muted {
+  color: #c3c2c5 !important;
+}
+
+.text-accent {
+  color: $poshly-new-purple !important;
+}

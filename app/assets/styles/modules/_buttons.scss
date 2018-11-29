@@ -1,0 +1,172 @@
+// Poshly button format and colors
+
+.btn{
+  color:#333;
+  text-shadow: none;
+  text-decoration: none;
+  @include border-radius(3px);
+  border: 1px solid $btn-default-stroke;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+
+    &:hover { color: $poshly-deep-black; }
+}
+
+.btn-lg {
+  border: 1px solid $btn-default-stroke;
+  color: $poshly-eggshell-white;
+  font-size:inherit;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.btn-default {
+  background: $btn-default-bg-color;
+  border: 1px solid $btn-default-stroke;
+  color: $btn-default-font-color;
+  font-size: $btn-default-font-size;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+  background: $btn-default-bg-color-hover;
+  border: 1px solid $btn-default-stroke;
+  color: $btn-default-font-color;
+  font-size: $btn-default-font-size;
+}
+
+.btn-primary { background: rgba(255,255,255,.2); }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active {
+  background: rgba(255,255,255,.5);
+}
+
+// Custom button for landing page
+.landing-page {
+
+  .btn-landing, .btn-landing:visited {
+    background: $poshly-accent-03-pastel-a;
+  }
+
+  .btn-landing:hover, .btn-landing:focus, .btn-landing:active, .btn-landing:active, .btn:active {
+    background: $poshly-accent-03-pastel-b;
+  }
+
+  .btn-landing, .btn-landing:visited, .btn-landing:hover, .btn-landing:focus, .btn-landing:active, .btn-landing:active, .btn:active {
+    border: 1px #faeee0 solid;
+    color: $poshly-accent-04;
+    @extend %fontGothamMedium;
+  }
+
+  @media (min-width: 768px) {
+    .btn-landing:hover, .btn-landing:focus, .btn-landing:active, .btn-landing:active, .btn-landing {
+      padding: 16px 70px 16px 70px;
+
+    }
+  }
+
+}
+
+// Filter/Search bar buttons
+
+.btn-clear-all { margin-top: 20px; }
+
+
+// Custom buttons for Request Products Modal
+.request-products-modal {
+
+  .btn {
+    background: $modal-bg-color;
+    color: $poshly-body-copy;
+    border: none;
+    font-size: $font-body;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    @include border-radius(0);
+    @extend %fontGothamBook;
+
+    &:hover {
+      background: $btn-default-bg-color;
+      border: none;
+      font-size: $font-body;
+    }
+  }
+}
+
+.btn-landing {
+  display: inline-block !important;
+  padding: 15px 35px !important;
+  color: $poshly-new-purple;
+  font-weight: 400;
+  background-color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-radius: 30px;
+  @extend %MontserratRegular;
+  box-shadow: 1px 1px 20px -4px rgba(0, 0, 0, 0.3);
+  transition: all .2s ease-in-out;
+
+  i {
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+  }
+
+  &-apple { i { color: $poshly-background-purple-dark; }}
+  &-android { i { color: #A4C639; }}
+
+  &:hover {
+    color: white;
+    background-color: $poshly-new-purple !important;
+
+    i { color: white; }
+  }
+}
+
+.btn-disabled {
+  color: $text-muted !important;
+  opacity: .5 !important;
+  pointer-events: none !important;
+}
+
+.poshly-button {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  max-width: 50%;
+  text-transform: uppercase;
+  @extend %MontserratRegular;
+  letter-spacing: 0.5px;
+  background-color: $poshly-new-purple;
+}
+
+.poshly-button-rose {
+  @extend .poshly-button;
+  background-color: $poshly-rose;
+}
+
+.poshly-button-rose-rounded {
+  @extend .poshly-button-rose;
+  border-radius: 30px;
+}
+
+.poshly-button-rounded {
+  @extend .poshly-button;
+  border-radius: 30px;
+}
+
+.btn-w100 {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.explore-button {
+  @include center-block();
+  background-color: #46baab;
+  min-width: 204px;
+  margin-top: 40px;
+}

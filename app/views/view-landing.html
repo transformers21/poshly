@@ -1,0 +1,147 @@
+<section class="landing-products">
+    <div ng-include="'../views/landing/header.html'"></div>
+
+    <div class="landing-products-caption">
+        <div class="container">
+            <h1 class="landing-title-lg">Find the Best Products for You</h1>
+            <p class="landing-subtitle">Poshly finds you products that best match your personal needs.</p>
+
+            <form class="form-inline" role="form">
+                <div class="form-group col-md-5">
+                    <input type="email" placeholder="Email address" class="landing-input" />
+                </div>
+                <div class="form-group col-md-5">
+                    <input type="password" placeholder="Create password" class="landing-input" />
+                </div>
+                <button type="submit" class="poshly-button">Get started</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="landing-products-towel">
+        <img src="../assets/images/towel.png" alt="towel">
+    </div>
+
+    <div class="landing-products-flowers">
+        <img src="../assets/images/flowers.png" alt="flowers">
+    </div>
+
+    <div class="landing-products-feedback">
+        <div class="container">
+            <div class="col-md-6 pull-left">
+                <h2 class="landing-title-sm">We Don't Believe in One Size Fits All</h2>
+                <p class="landing-subtitle">
+                    People come in all shapes, sizes, race, age - the list goes on and on. With such beautiful diversity,
+                    how can any single product fit everyone? By understanding all the subtle nuances that make you you,
+                    Poshly recommends you the products that are best for your unique needs, almost like having a best friend who knows you better than you.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="landing-testimonials">
+    <div class="container">
+        <uib-tabset template-url="views/landing/landing-carousel-tabs.html" active="0" class="testimonial-tabs">
+            <uib-tab index="0" heading="Press">
+                <div uib-carousel template-url="views/landing/landing-carousel.html" class="testimonials-carousel" interval="myInterval" active="0">
+                    <div uib-slide ng-repeat="slides in testimonials track by $index" index="$index">
+                        <div class="col-md-4 col-xs-4" ng-repeat="slide in slides track by slide.id">
+                            <div class="testimonial-item">
+                                <div class="testimonial-image">
+                                    <img ng-src="{{ slide.thumbnail }}" alt="thumbmail">
+                                </div>
+                                <div class="testimonial-body">
+                                    <p class="testimonial-text">&#8220;{{ slide.testimonialText }}&#8221;</p>
+                                    <strong class="testimonial-sender">{{ slide.testimonialSender }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </uib-tab>
+            <uib-tab index="1" heading="Members">
+                <div uib-carousel template-url="views/landing/landing-carousel.html" class="testimonials-carousel" interval="myInterval" active="0">
+                    <div uib-slide ng-repeat="slides in testimonials track by $index" index="$index">
+                        <div class="col-md-4 col-xs-4" ng-repeat="slide in slides track by slide.id">
+                            <div class="testimonial-item">
+                                <div class="testimonial-image">
+                                    <img ng-src="{{ slide.thumbnail }}" alt="thumbmail">
+                                </div>
+                                <div class="testimonial-body">
+                                    <p class="testimonial-text">{{ slide.testimonialText }}</p>
+                                    <strong class="testimonial-sender">{{ slide.testimonialSender }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </uib-tab>
+            <uib-tab index="2" heading="Brands">
+                <div uib-carousel template-url="views/landing/landing-carousel.html" class="testimonials-carousel" interval="myInterval" active="0">
+                    <div uib-slide ng-repeat="slides in testimonials track by $index" index="$index">
+                        <div class="col-md-4 col-xs-4" ng-repeat="slide in slides track by slide.id">
+                            <div class="testimonial-item">
+                                <div class="testimonial-image">
+                                    <img ng-src="{{ slide.thumbnail }}" alt="thumbmail">
+                                </div>
+                                <div class="testimonial-body">
+                                    <p class="testimonial-text">{{ slide.testimonialText }}</p>
+                                    <strong class="testimonial-sender">{{ slide.testimonialSender }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </uib-tab>
+        </uib-tabset>
+    </div>
+</section>
+
+<section class="landing-poshly-app">
+    <div class="container">
+        <div class="col-md-6">
+            <div class="poshly-app-description">
+                <div class="poshly-app-logo">
+                    <img src="../assets/images/logo/icon-color-small@2x.png" alt="logo">
+                </div>
+                <div class="poshly-app-text">
+                    <h2 class="landing-title-sm">Now Available on Mobile</h2>
+                    <p class="landing-subtitle">Poshly is excited to announce that you can now take <br> Poshly anywhere you go.</p>
+                </div>
+                <button class="btn-landing btn-landing-apple">
+                    <i class="fa fa-apple"></i> Download
+                </button>
+                <button class="btn-landing btn-landing-android btn-disabled">
+                    <i class="fa fa-android"></i> Coming soon
+                </button>
+            </div>
+        </div>
+        <div class="poshly-app-skewed-section">
+            <img src="../assets/images/bg-mobile2.png" alt="images">
+        </div>
+    </div>
+</section>
+
+<section class="landing-app-image">
+    <img src="../assets/images/bg-mobile-isometric.jpg" alt="image" class="img-responsive">
+</section>
+
+<section class="landing-poshly-insights">
+    <div class="container">
+        <div class="insights-description">
+            <h2 class="landing-title-lg"><img src="../assets/images/logo/marketing-site-v3_03.png" alt="logo" width="120"> insights</h2>
+            <p class="landing-subtitle">
+                From beauty to electronics, from retail channels to media outlets, Poshly has the data you need.
+                Poshly empowers brands with real time high quality insights.
+                Our easy to use platform allows you to sell more, innovate faster, and sample better than ever before.
+            </p>
+            <a href="#" class="btn-landing">Request demo</a>
+        </div>
+        <div class="insights-image">
+            <img src="../assets/images/insights.png" class="img-responsive" alt="background">
+        </div>
+    </div>
+</section>
+
+<div ng-include="'../views/landing/footer.html'"></div>

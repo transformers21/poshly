@@ -1,0 +1,121 @@
+// NOTE: All colors based on the high fidelity designs exist in only this file
+// NOTE: No color is to be hard coded within the theme, views or partials files
+
+
+// Poshly colors from current style guide - will change with evolution of style guide and UI kit
+
+// New design colors
+$poshly-new-purple: #a84ea6;
+$poshly-background-light: #f1f0f5;
+$poshly-background-purple-dark: #45414e;
+$poshly-pastel-rose: #e2cde2;
+$poshly-text-gray: #8F8E94;
+$poshly-rose: #dfa1dd;
+
+// Font colors
+$poshly-logo-font: rgba(109,109,109,1);
+
+// Type colors
+$base-text: #1c1c1c;
+$text-lighter: #292929;
+$text-disabled: #a1a1a1;//or #7a7a7a
+
+// Font colors - UI Kit V5
+$poshly-header-font: rgba(68,49,71,1) ;
+$poshly-header-font-inversed: rgba(255,255,255,1);
+$poshly-sub-header-font: rgba(124,110,126,1) ;
+$poshly-sub-header-font-inversed: rgba(255,255,255,1) ;
+$poshly-body-copy: rgba(68,49,71,1) ;
+$poshly-body-copy-bold: rgba(82,81,104,1) ;
+$poshly-body-copy-boxed: rgba(240,242,247,1);
+$poshly-eggshell-white: rgba(255,255,255,1);
+$poshly-deep-black: rgba(0,0,0,1);
+
+
+// Primary Button Color Palette
+$poshly-primary: #443147;
+$poshly-primary-shade: #4d134b;
+$poshly-primary-tint: #995f97;
+$poshly-primary-pastel: #e2d1e1;
+
+
+// Primary Button Color Palette Opacity
+$poshly-primary-opacity-4: rgba(77,19,75,0.5);
+
+// Secondary Color Palette
+$poshly-secondary: rgba(131,203,197,1);
+$poshly-secondary-shade: #5c8e8a;
+$poshly-secondary-tint: #a8dad6;
+$poshly-secondary-pastel: #e6f5f3;
+
+// Accent Color 01
+$poshly-accent-01: rgba(68,49,71,1);
+$poshly-accent-01-shade: #302232;
+$poshly-accent-01-tint: #7c6e7e;
+$poshly-accent-01-pastel: #dad6da;
+
+// Accent Color 02
+$poshly-accent-02: rgba(82,81,104,1);
+$poshly-accent-02-shade: #3a3949;
+$poshly-accent-02-tint: #dcdce1;
+$poshly-accent-02-pastel: #dcdce1;
+
+// Accent Color 03
+$poshly-accent-03: rgba(232,168,98,1);
+$poshly-accent-03-shade: #a37645;
+$poshly-accent-03-tint: #efc291;
+$poshly-accent-03-pastel: rgb(250,238,224);
+$poshly-accent-03-pastel-a: rgba(250,238,224,.9);
+$poshly-accent-03-pastel-b: rgba(250,238,224,.5);
+
+// Accent Color 04
+$poshly-accent-04: rgba(183,133,186,1);
+$poshly-accent-04-shade: #805d83;
+$poshly-accent-04-tint: #cca9cf;
+$poshly-accent-04-pastel: #f1e7f1;
+
+// Background Color
+$poshly-background: #fbfbfa;
+$poshly-background-shade: #a8aaad;
+$poshly-background-tint: #f4f6f9;
+$poshly-background-pastel: #fcfcfd;
+
+// Border colors
+$poshly-border-black: rgba(0,0,0,1);
+
+// Starter Kit Colors  - These need to be updated based on completed style guides.
+$dark-purple: #7b4173;
+$light-purple: #de9ed6;
+$poshly-purple: #741D72;
+$poshly-light-gray: #DCE1E4;
+$poshly-medium-gray: #777777;
+
+// Poshly Tool Tip Colors
+$poshly-tooltip-bg-primary: rgba(82,81,104,1.0);
+$poshly-tooltip-border-primary: rgba(196,196,196,.5);
+
+//Filters
+$filters-dark-background-color: $poshly-primary;
+
+// app container
+$app-background-color: $poshly-background;
+
+// Modals
+$modal-bg-color: $poshly-background;
+
+// Button colors
+$btn-default-stroke: rgba(195,195,195,1);
+$btn-default-bg-color: rgba(131,203,197,1);
+$btn-default-bg-color-hover: rgba(92,142,138,1);
+$btn-default-focus-stroke: rgba(232,168,98,1);
+
+// Bootstrap standard 5 color palette for notifications
+$brand-primary: rgba(77,19,75,1);
+$brand-info: rgba(82,197,104,1);
+$brand-success: rgba(131,203,197,1);
+$brand-warning: rgba(232,168,98,1);
+$brand-danger: rgba(183,133,186,1);
+
+//Border Colors
+$border-offers: #C8C7CC;
+

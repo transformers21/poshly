@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/Volumes/WORKS/Jobs in progress/Poshly/products-ui/src/main/scala/com/poshly/products/routes/RoutesUtil.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 800 lines"/>
+ </file>
+</checkstyle>
