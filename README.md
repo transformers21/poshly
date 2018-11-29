@@ -1,5 +1,5 @@
-# Products UI: POSH-2007
-Based on Insights UI
+# Products UI for Poshly
+Based on Insights UI (https://projects.invisionapp.com/share/XZAPJRGMP#/screens)
 
 # How to run it:
     npm install -g bower grunt-cli
